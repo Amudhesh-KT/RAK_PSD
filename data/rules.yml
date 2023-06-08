@@ -1,0 +1,43 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Send Options english
+  steps:
+  - intent: language_english
+  - action: action_send_options_english
+
+- rule: Raise complaint 
+  steps:
+  - intent: raise_complaint
+  - action:  action_send_raise_complaint
+
+- rule: Get complaint ID
+  steps:
+  - intent: track_complaint
+  - action: action_send_complaintid
+
+- rule: Ask for track comments
+  steps:
+  - intent: complaint_id
+  - action: action_send_track_comments
+
+- rule: Suggestion
+  steps:
+  - intent: suggestion
+  - action: action_send_suggestion_form
+
+- rule: Apply for service
+  steps:
+  - intent: apply_services
+  - action: action_send_apply_service

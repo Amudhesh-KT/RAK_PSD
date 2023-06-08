@@ -1,0 +1,1126 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: language_english
+  examples: |
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - english
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+    - English
+- intent: language_arabic
+  examples: |
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - Arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+    - arabic
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: raise_complaint
+  examples: |
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+    - Raise a complaint
+
+- intent: track_complaint
+  examples: |
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - Track a Complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+    - track a Complaint
+
+- intent:  suggestion
+  examples: |
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a Suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - Give a suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a Suggestion
+    - give a suggestion
+    - give a suggestion
+    - give a suggestion
+    - give a suggestion
+    - give a suggestion
+    - give a suggestion
+    - give a suggestion
+    - give a suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+    - Suggestion
+
+
+- intent: apply_services
+  examples: |
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for Service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for Service
+    - apply for a Service
+    - apply for a Service
+    - apply for a Service
+    - apply for a Service
+    - apply for a Service
+    - apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for a Service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+    - Apply for service
+
+- intent: complaint_number
+  examples: |
+    - RAK1001
+    - RAK1002
+    - RAK1003
+    - RAK1004
+    - RAK1005
+    - RAK1006
+    - RAK1007
+    - RAK1008
+    - RAK1009
+    - RAK1010
+    - RAK1011
+    - RAK1012
+    - RAK1013
+    - RAK1014
+    - RAK1015
+    - RAK1016
+    - RAK1017
+    - RAK1018
+    - RAK1019
+    - RAK1020
+    - RAK1021
+    - RAK1022
+    - RAK1023
+    - RAK1024
+    - RAK1025
+    - RAK1026
+    - RAK1027
+    - RAK1028
+    - RAK1029
+    - RAK1030
+    - RAK1031
+    - RAK1032
+    - RAK1033
+    - RAK1034
+    - RAK1035
+    - RAK1036
+    - RAK1037
+    - RAK1038
+    - RAK1039
+    - RAK1040
+    - RAK1041
+    - RAK1042
+    - RAK1043
+    - RAK1044
+    - RAK1045
+    - RAK1046
+    - RAK1047
+    - RAK1048
+    - RAK1049
+    - RAK1050
+    - RAK1051
+    - RAK1052
+    - RAK1053
+    - RAK1054
+    - RAK1055
+    - RAK1056
+    - RAK1057
+    - RAK1058
+    - RAK1059
+    - RAK1060
+    - RAK1061
+    - RAK1062
+    - RAK1063
+    - RAK1064
+    - RAK1065
+    - RAK1066
+    - RAK1067
+    - RAK1068
+    - RAK1069
+    - RAK1070
+    - RAK1071
+    - RAK1072
+    - RAK1073
+    - RAK1074
+    - RAK1075
+    - RAK1076
+    - RAK1077
+    - RAK1078
+    - RAK1079
+    - RAK1080
+    - RAK1081
+    - RAK1082
+    - RAK1083
+    - RAK1084
+    - RAK1085
+    - RAK1086
+    - RAK1087
+    - RAK1088
+    - RAK1089
+    - RAK1090
+    - RAK1091
+    - RAK1092
+    - RAK1093
+    - RAK1094
+    - RAK1095
+    - RAK1096
+    - RAK1097
+    - RAK1098
+    - RAK1099
+    - RAK1100
+    - RAK1101
+    - RAK1102
+    - RAK1103
+    - RAK1104
+    - RAK1105
+    - RAK1106
+    - RAK1107
+    - RAK1108
+    - RAK1109
+    - RAK1110
+    - RAK1111
+    - RAK1112
+    - RAK1113
+    - RAK1114
+    - RAK1115
+    - RAK1116
+    - RAK1117
+    - RAK1118
+    - RAK1119
+    - RAK1120
+    - RAK1121
+    - RAK1122
+    - RAK1123
+    - RAK1124
+    - RAK1125
+    - RAK1126
+    - RAK1127
+    - RAK1128
+    - RAK1129
+    - RAK1130
+    - RAK1131
+    - RAK1132
+    - RAK1133
+    - RAK1134
+    - RAK1135
+    - RAK1136
+    - RAK1137
+    - RAK1138
+    - RAK1139
+    - RAK1140
+    - RAK1141
+    - RAK1142
+    - RAK1143
+    - RAK1144
+    - RAK1145
+    - RAK1146
+    - RAK1147
+    - RAK1148
+    - RAK1149
+    - RAK1150
+    - RAK1151
+    - RAK1152
+    - RAK1153
+    - RAK1154
+    - RAK1155
+    - RAK1156
+    - RAK1157
+    - RAK1158
+    - RAK1159
+    - RAK1160
+    - RAK1161
+    - RAK1162
+    - RAK1163
+    - RAK1164
+    - RAK1165
+    - RAK1166
+    - RAK1167
+    - RAK1168
+    - RAK1169
+    - RAK1170
+    - RAK1171
+    - RAK1172
+    - RAK1173
+    - RAK1174
+    - RAK1175
+    - RAK1176
+    - RAK1177
+    - RAK1178
+    - RAK1179
+    - RAK1180
+    - RAK1181
+    - RAK1182
+    - RAK1183
+    - RAK1184
+    - RAK1185
+    - RAK1186
+    - RAK1187
+    - RAK1188
+    - RAK1189
+    - RAK1190
+    - RAK1191
+    - RAK1192
+    - RAK1193
+    - RAK1194
+    - RAK1195
+    - RAK1196
+    - RAK1197
+    - RAK1198
+    - RAK1199
+    - RAK9818
+    - RAK6716
+    - RAK3504
+    - RAK6186
+    - RAK4617
+    - RAK4711
+    - RAK8911
+    - RAK8156
+    - RAK6174
+    - RAK5010
+    - RAK9214
+    - RAK3921
+    - RAK6404
+    - RAK1903
+    - RAK7040
+    - RAK8610
+    - RAK5731
+    - RAK3408
+    - RAK2978
+    - RAK7015
+    - RAK5292
+    - RAK4916
+    - RAK2075
+    - RAK2659
+    - RAK6398
+    - RAK8719
+    - RAK1917
+    - RAK5898
+    - RAK2064
+    - RAK9841
+    - RAK4110
+    - RAK1245
+    - RAK6939
+    - RAK1750
+    - RAK4026
+    - RAK5540
+    - RAK4276
+    - RAK1477
+    - RAK5615
+    - RAK3927
+    - RAK5332
+    - RAK1290
+    - RAK6453
+    - RAK7135
+    - RAK7209
+    - RAK3531
+    - RAK3649
+    - RAK2633
+    - RAK5136
+    - RAK7350
+    - RAK4301
+    - RAK6421
+    - RAK8057
+    - RAK5978
+    - RAK2907
+    - RAK9850
+    - RAK8108
+    - RAK8899
+    - RAK4107
+    - RAK6851
+    - RAK6479
+    - RAK9028
+    - RAK3123
+    - RAK4888
+    - RAK2700
+    - RAK6688
+    - RAK3268
+    - RAK2512
+    - RAK2653
+    - RAK4639
+    - RAK5317
+    - RAK6637
+    - RAK3894
+    - RAK4544
+    - RAK2256
+    - RAK8618
+    - RAK2692
+    - RAK5242
+    - RAK6606
+    - RAK1233
+    - RAK8274
+    - RAK1881
+    - RAK6372
+    - RAK9752
+    - RAK1490
+    - RAK4221
+    - RAK6195
+    - RAK7702
+    - RAK7965
+    - RAK8681
+    - RAK2268
+    - RAK8739
+    - RAK9257
+    - RAK8228
+    - RAK2912
+    - RAK8301
+    - RAK9881
+    - RAK5420
+    - RAK9950
+    - RAK7307
+    - RAK6708
+    - RAK2407
+    - RAK5474
+    - RAK8395
+    - RAK1203
+    - RAK3868
+    - RAK9907
+    - RAK9514
+    - RAK9573
+    - RAK6430
+    - RAK7529
+    - RAK1533
+    - RAK9249
+    - RAK8607
+    - RAK1498
+    - RAK7877
+    - RAK5540
+    - RAK3604
+    - RAK8214
+    - RAK8023
+    - RAK8149
+    - RAK9433
+    - RAK7963
+    - RAK1357
+    - RAK1867
+    - RAK8400
+    - RAK3011
+    - RAK7417
+    - RAK1975
+    - RAK5047
+    - RAK7006
+    - RAK7082
+    - RAK7475
+    - RAK5892
+    - RAK9526
+    - RAK7110
+    - RAK3731
+    - RAK3261
+    - RAK4519
+    - RAK9198
+    - RAK1683
+    - RAK1806
+    - RAK7443
+    - RAK7780
+    - RAK2934
+    - RAK3094
+    - RAK4429
+    - RAK4419
+    - RAK6548
+    - RAK8720
+    - RAK4283
+    - RAK5807
+    - RAK9137
+    - RAK5563
+    - RAK7744
+    - RAK6783
+    - RAK7888
+    - RAK7377
+    - RAK1894
+    - RAK7694
+    - RAK4529
+    - RAK7940
+    - RAK2215
+    - RAK6595
+    - RAK7405
+    - RAK7429
+    - RAK3342
+    - RAK5396
+    - RAK1464
+    - RAK4374
+    - RAK6629
+    - RAK2741
+    - RAK7107
+    - RAK3869
+    - RAK4611
+    - RAK1992
+    - RAK7063
+    - RAK6594
+    - RAK8046
+    - RAK5307
+    - RAK5201
+    - RAK9233
+    - RAK2409
+    - RAK3504
+    - RAK4392
+    - RAK9673
+    - RAK3577
+    - RAK3706
+    - RAK4826
+    - RAK5903
+    - RAK7987
+    - RAK6338
+    - RAK4328
+    - RAK7275
+    - RAK5122
+    - RAK3206
+    - RAK8148
+    - RAK8760
+    - RAK1918
+    - RAK5084

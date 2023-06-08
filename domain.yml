@@ -1,0 +1,63 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - inform
+  - complaint_id
+  - language_english
+  - language_arabic
+  - complaint_number
+#****************************************RAISE_COMPLAINT****************************************************
+  - raise_complaint
+#****************************************RAISE_COMPLAINT****************************************************
+
+#****************************************TRACK COMPLAINT******************************************************
+  - track_complaint
+#****************************************TRACK COMPLAINT******************************************************
+
+#****************************************SUGGESTIONS**********************************************************
+  - suggestion
+#****************************************SUGGESTIONS**********************************************************
+
+#****************************************SERVICES**********************************************************  
+  - apply_services
+#****************************************SERVICES**********************************************************
+
+responses:
+  utter_greet:
+  - text: "Please choose one of the following options:\n1. Raise complaint\n2. Track complaint\n3. Suggestion\n4. Apply for service"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+actions:
+- action_send_raise_complaint
+- action_send_options_english
+- action_send_apply_service
+- action_send_suggestion_form
+- action_send_track_comments
+- action_send_complaintid
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
