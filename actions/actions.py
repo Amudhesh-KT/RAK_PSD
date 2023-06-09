@@ -22,8 +22,10 @@ class ActionSendOptions(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         resp =  {
-                    "msg": "How may we help you",
                     "welcome": [
+                    {
+                        "type": "title", "value":"How may we help you?"
+                    },
                     {
                         "type":"button","value":"Raise a complaint"
                     },
@@ -52,6 +54,7 @@ class ActionRaiseComplaint(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         resp =  {
+                    "formType": "raise a complaint",
                     "form":[
 		                {
                             "type":"text","value":"Enter complaint details"
@@ -76,6 +79,7 @@ class ActionSendComplaintID(Action):
             tracker:Tracker,
             domain: Dict[Text,Any]) -> List[Dict[Text,Any]]:
         resp = {
+                "formType": "track your complaint",
 	            "form":[
 	                    {
                             "type":"text","value":"Enter complaint number"
@@ -99,6 +103,7 @@ class ActionAskforTrackComments(Action):
             tracker:Tracker,
             domain: Dict[Text,Any]) -> List[Dict[Text,Any]]:
         resp = {
+                "formType": "track your complaint",
 	            "form":[
 	                    {
                             "type":"text","value":"Enter comments if any"
@@ -121,6 +126,7 @@ class ActionSuggestionForm(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         resp =  {
+                    "formType": "suggestion",
                     "form":[
 		                {
                             "type":"text","value":"Enter suggestion if any"
@@ -145,8 +151,8 @@ class ActionSuggestionForm(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         resp =  {
-                    "msg": "Please find below",
-                    "redirectLink": "https://www.google.com/"
+                    "msg": "Please download the mRAK application for services.",
+                    "redirectLink": "https://play.google.com/store/apps/details?id=ae.rak.ega.mrak"
                 }
         response_json = json.dumps(resp)
         dispatcher.utter_message(text=response_json)
