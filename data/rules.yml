@@ -29,7 +29,7 @@ rules:
 
 - rule: Ask for track comments
   steps:
-  - intent: complaint_id
+  - intent: complaint_number
   - action: action_send_track_comments
 
 - rule: Suggestion
