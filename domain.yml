@@ -13,6 +13,7 @@ intents:
   - language_english
   - language_arabic
   - complaint_number
+  - complaint_raise
 #****************************************RAISE_COMPLAINT****************************************************
   - raise_complaint
 #****************************************RAISE_COMPLAINT****************************************************
@@ -56,6 +57,7 @@ actions:
 - action_send_suggestion_form
 - action_send_track_comments
 - action_send_complaintid
+- action_submit_complaint
 
 
 session_config:

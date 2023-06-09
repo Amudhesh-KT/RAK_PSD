@@ -41,3 +41,8 @@ rules:
   steps:
   - intent: apply_services
   - action: action_send_apply_service
+
+- rule: Submit complaint form
+  steps:
+  - intent: complaint_raise
+  - action: action_submit_complaint
