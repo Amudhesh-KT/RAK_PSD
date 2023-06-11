@@ -113,21 +113,47 @@ class ActionAskforTrackComments(Action):
         
         complaint_id = tracker.get_slot("complaint_id")
         print(f"{complaint_id}")
-        resp = {
+        status_id = complaint_collection.find_one({"complaint_id": complaint_id})
+        if status_id:
+            print("Inside loop")
+            for status in status_id:
+            # Do something with the user data
+                statusI = status['complaint_status']
+                print(statusI)
+            resp = {
                 "formType": "track your complaint",
                 "trackID": complaint_id,
-	            "form":[
-	                    {
+                "status": statusI,
+             "form":[
+                     {
                             "type":"text","value":"Enter comments if any",
-                            
-	                    }
+
+                     }
                         ]
                 }
+            response_json = json.dumps(resp)
+            dispatcher.utter_message(text=response_json)
+            print(resp)
+            
+            
 
-        response_json = json.dumps(resp)
-        dispatcher.utter_message(text=response_json)
-        print(resp)
-
+        
+        else:
+            resp = {
+                "formType": "track your complaint",
+	            "form":[
+	                    {
+                            "type":"text","value":"Invalid complaint ID",
+                            
+                        }
+                        ]
+                }
+            response_json = json.dumps(resp)
+            dispatcher.utter_message(text=response_json)
+            print(resp)
+           
+          
+        
         return[]
 
 class ActionSuggestionForm(Action):
@@ -253,7 +279,7 @@ class ActionSubmitSuggestion(Action):
         username = suggestion_form.get("username")
         email = suggestion_form.get("email")
         location = suggestion_form.get("location")
-        suggestion_details = suggestion_form.get("complaint_details")
+        suggestion_details = suggestion_form.get("suggestion_details")
         attachments = suggestion_form.get("attachments")
 
     # Create a document to store in the complaint_collection
@@ -261,7 +287,7 @@ class ActionSubmitSuggestion(Action):
             'username': username,
             'email': email,
             'location': location,
-            'complaint_details': suggestion_details,
+            'suggestion_details': suggestion_details,
             'attachments': attachments,
         }
 
