@@ -191,7 +191,8 @@ class ActionServiceForm(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         resp =  {
                     "msg": "Please download the mRAK application for services.",
-                    "redirectLink": "https://play.google.com/store/apps/details?id=ae.rak.ega.mrak"
+                    "redirectLink": "https://play.google.com/store/apps/details?id=ae.rak.ega.mrak",
+                    "isActionEnded": "completed"
                 }
         response_json = json.dumps(resp)
         dispatcher.utter_message(text=response_json)
@@ -238,7 +239,15 @@ class ActionSubmitComplaint(Action):
             # Insert the document into the complaint_collection
         result = complaint_collection.insert_one(document)
         file_id = str(result.inserted_id)
-        dispatcher.utter_message(text=f"Complaint with ID: {col_id} has been raised successfully. One of our team member will contact you shortly")
+        resp =  {
+                    "msg": f"Complaint with ID: {col_id} has been raised successfully. One of our team member will contact you shortly",
+                    "isActionEnded": "completed"
+                }
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+
+        # dispatcher.utter_message(text=f"Complaint with ID: {col_id} has been raised successfully. One of our team member will contact you shortly")
         
 
         return []
@@ -262,8 +271,17 @@ class ActionSubmitTrack(Action):
         complaint_id = track_form.get("complaint_id")
         comments = track_form.get("comments")
         
-        resp = complaint_collection.update_one({'complaint_id':complaint_id},{"$set":{'comments':comments}})
-        dispatcher.utter_message(text="Thank you for your comments")
+        resp1 = complaint_collection.update_one({'complaint_id':complaint_id},{"$set":{'comments':comments}})
+
+        resp =  {
+                    "msg": "Thank you for your comments",
+                    "isActionEnded": "completed"
+                }
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+
+        # dispatcher.utter_message(text="Thank you for your comments")
         return []
     
 class ActionSubmitSuggestion(Action):
@@ -295,7 +313,16 @@ class ActionSubmitSuggestion(Action):
             # Insert the document into the complaint_collection
         result = suggestion_collection.insert_one(document)
         file_id = str(result.inserted_id)
-        dispatcher.utter_message(text="Thankyou for your suggestions")
+
+        resp =  {
+                    "msg":"Thankyou for your suggestions",
+                    "isActionEnded": "completed"
+                }
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+
+        # dispatcher.utter_message(text="Thankyou for your suggestions")
         
 
         return []
