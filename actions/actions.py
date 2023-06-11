@@ -116,10 +116,10 @@ class ActionAskforTrackComments(Action):
         status_id = complaint_collection.find_one({"complaint_id": complaint_id})
         if status_id:
             print("Inside loop")
-            for status in status_id:
+            # for status in status_id:
             # Do something with the user data
-                statusI = status['complaint_status']
-                print(statusI)
+            statusI = status_id.get('complaint_status')
+            print(statusI)
             resp = {
                 "formType": "track your complaint",
                 "trackID": complaint_id,
