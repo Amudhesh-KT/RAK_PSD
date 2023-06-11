@@ -181,7 +181,7 @@ class ActionSuggestionForm(Action):
 
         return []
     
-class ActionSuggestionForm(Action):
+class ActionServiceForm(Action):
 
     def name(self) -> Text:
         return "action_send_apply_service"
@@ -238,7 +238,7 @@ class ActionSubmitComplaint(Action):
             # Insert the document into the complaint_collection
         result = complaint_collection.insert_one(document)
         file_id = str(result.inserted_id)
-        dispatcher.utter_message(text=f"Complaint with ID: {col_id} has been raised successfully.")
+        dispatcher.utter_message(text=f"Complaint with ID: {col_id} has been raised successfully. One of our team member will contact you shortly")
         
 
         return []
@@ -263,6 +263,7 @@ class ActionSubmitTrack(Action):
         comments = track_form.get("comments")
         
         resp = complaint_collection.update_one({'complaint_id':complaint_id},{"$set":{'comments':comments}})
+        dispatcher.utter_message(text="Thank you for your comments")
         return []
     
 class ActionSubmitSuggestion(Action):
@@ -294,7 +295,7 @@ class ActionSubmitSuggestion(Action):
             # Insert the document into the complaint_collection
         result = suggestion_collection.insert_one(document)
         file_id = str(result.inserted_id)
-        dispatcher.utter_message(text="Suggestion saved")
+        dispatcher.utter_message(text="Thankyou for your suggestions")
         
 
         return []
