@@ -723,521 +723,743 @@ nlu:
     - Apply for service
     - Apply for service
 
+- intent: complaint_raise
+  examples: |
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint raised
+    - complaint Raised
+    - complaint Raised
+    - complaint Raised
+    - complaint Raised
+    - complaint Raised
+    - complaint Raised
+    - complaint Raised
+    - complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+    - Complaint Raised
+
 - intent: complaint_number
   examples: |
-    - RAK1001
-    - RAK1002
-    - RAK1003
-    - RAK1004
-    - RAK1005
-    - RAK1006
-    - RAK1007
-    - RAK1008
-    - RAK1009
-    - RAK1010
-    - RAK1011
-    - RAK1012
-    - RAK1013
-    - RAK1014
-    - RAK1015
-    - RAK1016
-    - RAK1017
-    - RAK1018
-    - RAK1019
-    - RAK1020
-    - RAK1021
-    - RAK1022
-    - RAK1023
-    - RAK1024
-    - RAK1025
-    - RAK1026
-    - RAK1027
-    - RAK1028
-    - RAK1029
-    - RAK1030
-    - RAK1031
-    - RAK1032
-    - RAK1033
-    - RAK1034
-    - RAK1035
-    - RAK1036
-    - RAK1037
-    - RAK1038
-    - RAK1039
-    - RAK1040
-    - RAK1041
-    - RAK1042
-    - RAK1043
-    - RAK1044
-    - RAK1045
-    - RAK1046
-    - RAK1047
-    - RAK1048
-    - RAK1049
-    - RAK1050
-    - RAK1051
-    - RAK1052
-    - RAK1053
-    - RAK1054
-    - RAK1055
-    - RAK1056
-    - RAK1057
-    - RAK1058
-    - RAK1059
-    - RAK1060
-    - RAK1061
-    - RAK1062
-    - RAK1063
-    - RAK1064
-    - RAK1065
-    - RAK1066
-    - RAK1067
-    - RAK1068
-    - RAK1069
-    - RAK1070
-    - RAK1071
-    - RAK1072
-    - RAK1073
-    - RAK1074
-    - RAK1075
-    - RAK1076
-    - RAK1077
-    - RAK1078
-    - RAK1079
-    - RAK1080
-    - RAK1081
-    - RAK1082
-    - RAK1083
-    - RAK1084
-    - RAK1085
-    - RAK1086
-    - RAK1087
-    - RAK1088
-    - RAK1089
-    - RAK1090
-    - RAK1091
-    - RAK1092
-    - RAK1093
-    - RAK1094
-    - RAK1095
-    - RAK1096
-    - RAK1097
-    - RAK1098
-    - RAK1099
-    - RAK1100
-    - RAK1101
-    - RAK1102
-    - RAK1103
-    - RAK1104
-    - RAK1105
-    - RAK1106
-    - RAK1107
-    - RAK1108
-    - RAK1109
-    - RAK1110
-    - RAK1111
-    - RAK1112
-    - RAK1113
-    - RAK1114
-    - RAK1115
-    - RAK1116
-    - RAK1117
-    - RAK1118
-    - RAK1119
-    - RAK1120
-    - RAK1121
-    - RAK1122
-    - RAK1123
-    - RAK1124
-    - RAK1125
-    - RAK1126
-    - RAK1127
-    - RAK1128
-    - RAK1129
-    - RAK1130
-    - RAK1131
-    - RAK1132
-    - RAK1133
-    - RAK1134
-    - RAK1135
-    - RAK1136
-    - RAK1137
-    - RAK1138
-    - RAK1139
-    - RAK1140
-    - RAK1141
-    - RAK1142
-    - RAK1143
-    - RAK1144
-    - RAK1145
-    - RAK1146
-    - RAK1147
-    - RAK1148
-    - RAK1149
-    - RAK1150
-    - RAK1151
-    - RAK1152
-    - RAK1153
-    - RAK1154
-    - RAK1155
-    - RAK1156
-    - RAK1157
-    - RAK1158
-    - RAK1159
-    - RAK1160
-    - RAK1161
-    - RAK1162
-    - RAK1163
-    - RAK1164
-    - RAK1165
-    - RAK1166
-    - RAK1167
-    - RAK1168
-    - RAK1169
-    - RAK1170
-    - RAK1171
-    - RAK1172
-    - RAK1173
-    - RAK1174
-    - RAK1175
-    - RAK1176
-    - RAK1177
-    - RAK1178
-    - RAK1179
-    - RAK1180
-    - RAK1181
-    - RAK1182
-    - RAK1183
-    - RAK1184
-    - RAK1185
-    - RAK1186
-    - RAK1187
-    - RAK1188
-    - RAK1189
-    - RAK1190
-    - RAK1191
-    - RAK1192
-    - RAK1193
-    - RAK1194
-    - RAK1195
-    - RAK1196
-    - RAK1197
-    - RAK1198
-    - RAK1199
-    - RAK9818
-    - RAK6716
-    - RAK3504
-    - RAK6186
-    - RAK4617
-    - RAK4711
-    - RAK8911
-    - RAK8156
-    - RAK6174
-    - RAK5010
-    - RAK9214
-    - RAK3921
-    - RAK6404
-    - RAK1903
-    - RAK7040
-    - RAK8610
-    - RAK5731
-    - RAK3408
-    - RAK2978
-    - RAK7015
-    - RAK5292
-    - RAK4916
-    - RAK2075
-    - RAK2659
-    - RAK6398
-    - RAK8719
-    - RAK1917
-    - RAK5898
-    - RAK2064
-    - RAK9841
-    - RAK4110
-    - RAK1245
-    - RAK6939
-    - RAK1750
-    - RAK4026
-    - RAK5540
-    - RAK4276
-    - RAK1477
-    - RAK5615
-    - RAK3927
-    - RAK5332
-    - RAK1290
-    - RAK6453
-    - RAK7135
-    - RAK7209
-    - RAK3531
-    - RAK3649
-    - RAK2633
-    - RAK5136
-    - RAK7350
-    - RAK4301
-    - RAK6421
-    - RAK8057
-    - RAK5978
-    - RAK2907
-    - RAK9850
-    - RAK8108
-    - RAK8899
-    - RAK4107
-    - RAK6851
-    - RAK6479
-    - RAK9028
-    - RAK3123
-    - RAK4888
-    - RAK2700
-    - RAK6688
-    - RAK3268
-    - RAK2512
-    - RAK2653
-    - RAK4639
-    - RAK5317
-    - RAK6637
-    - RAK3894
-    - RAK4544
-    - RAK2256
-    - RAK8618
-    - RAK2692
-    - RAK5242
-    - RAK6606
-    - RAK1233
-    - RAK8274
-    - RAK1881
-    - RAK6372
-    - RAK9752
-    - RAK1490
-    - RAK4221
-    - RAK6195
-    - RAK7702
-    - RAK7965
-    - RAK8681
-    - RAK2268
-    - RAK8739
-    - RAK9257
-    - RAK8228
-    - RAK2912
-    - RAK8301
-    - RAK9881
-    - RAK5420
-    - RAK9950
-    - RAK7307
-    - RAK6708
-    - RAK2407
-    - RAK5474
-    - RAK8395
-    - RAK1203
-    - RAK3868
-    - RAK9907
-    - RAK9514
-    - RAK9573
-    - RAK6430
-    - RAK7529
-    - RAK1533
-    - RAK9249
-    - RAK8607
-    - RAK1498
-    - RAK7877
-    - RAK5540
-    - RAK3604
-    - RAK8214
-    - RAK8023
-    - RAK8149
-    - RAK9433
-    - RAK7963
-    - RAK1357
-    - RAK1867
-    - RAK8400
-    - RAK3011
-    - RAK7417
-    - RAK1975
-    - RAK5047
-    - RAK7006
-    - RAK7082
-    - RAK7475
-    - RAK5892
-    - RAK9526
-    - RAK7110
-    - RAK3731
-    - RAK3261
-    - RAK4519
-    - RAK9198
-    - RAK1683
-    - RAK1806
-    - RAK7443
-    - RAK7780
-    - RAK2934
-    - RAK3094
-    - RAK4429
-    - RAK4419
-    - RAK6548
-    - RAK8720
-    - RAK4283
-    - RAK5807
-    - RAK9137
-    - RAK5563
-    - RAK7744
-    - RAK6783
-    - RAK7888
-    - RAK7377
-    - RAK1894
-    - RAK7694
-    - RAK4529
-    - RAK7940
-    - RAK2215
-    - RAK6595
-    - RAK7405
-    - RAK7429
-    - RAK3342
-    - RAK5396
-    - RAK1464
-    - RAK4374
-    - RAK6629
-    - RAK2741
-    - RAK7107
-    - RAK3869
-    - RAK4611
-    - RAK1992
-    - RAK7063
-    - RAK6594
-    - RAK8046
-    - RAK5307
-    - RAK5201
-    - RAK9233
-    - RAK2409
-    - RAK3504
-    - RAK4392
-    - RAK9673
-    - RAK3577
-    - RAK3706
-    - RAK4826
-    - RAK5903
-    - RAK7987
-    - RAK6338
-    - RAK4328
-    - RAK7275
-    - RAK5122
-    - RAK3206
-    - RAK8148
-    - RAK8760
-    - RAK1918
-    - RAK5084
+    - [RAK1001](complaint_id)
+    - [RAK1002](complaint_id)
+    - [RAK1003](complaint_id)
+    - [RAK1004](complaint_id)
+    - [RAK1005](complaint_id)
+    - [RAK1006](complaint_id)
+    - [RAK1007](complaint_id)
+    - [RAK1008](complaint_id)
+    - [RAK1009](complaint_id)
+    - [RAK1010](complaint_id)
+    - [RAK1011](complaint_id)
+    - [RAK1012](complaint_id)
+    - [RAK1013](complaint_id)
+    - [RAK1014](complaint_id)
+    - [RAK1015](complaint_id)
+    - [RAK1016](complaint_id)
+    - [RAK1017](complaint_id)
+    - [RAK1018](complaint_id)
+    - [RAK1019](complaint_id)
+    - [RAK1020](complaint_id)
+    - [RAK1021](complaint_id)
+    - [RAK1022](complaint_id)
+    - [RAK1023](complaint_id)
+    - [RAK1024](complaint_id)
+    - [RAK1025](complaint_id)
+    - [RAK1026](complaint_id)
+    - [RAK1027](complaint_id)
+    - [RAK1028](complaint_id)
+    - [RAK1029](complaint_id)
+    - [RAK1030](complaint_id)
+    - [RAK1031](complaint_id)
+    - [RAK1032](complaint_id)
+    - [RAK1033](complaint_id)
+    - [RAK1034](complaint_id)
+    - [RAK1035](complaint_id)
+    - [RAK1036](complaint_id)
+    - [RAK1037](complaint_id)
+    - [RAK1038](complaint_id)
+    - [RAK1039](complaint_id)
+    - [RAK1040](complaint_id)
+    - [RAK1041](complaint_id)
+    - [RAK1042](complaint_id)
+    - [RAK1043](complaint_id)
+    - [RAK1044](complaint_id)
+    - [RAK1045](complaint_id)
+    - [RAK1046](complaint_id)
+    - [RAK1047](complaint_id)
+    - [RAK1048](complaint_id)
+    - [RAK1049](complaint_id)
+    - [RAK1050](complaint_id)
+    - [RAK1051](complaint_id)
+    - [RAK1052](complaint_id)
+    - [RAK1053](complaint_id)
+    - [RAK1054](complaint_id)
+    - [RAK1055](complaint_id)
+    - [RAK1056](complaint_id)
+    - [RAK1057](complaint_id)
+    - [RAK1058](complaint_id)
+    - [RAK1059](complaint_id)
+    - [RAK1060](complaint_id)
+    - [RAK1061](complaint_id)
+    - [RAK1062](complaint_id)
+    - [RAK1063](complaint_id)
+    - [RAK1064](complaint_id)
+    - [RAK1065](complaint_id)
+    - [RAK1066](complaint_id)
+    - [RAK1067](complaint_id)
+    - [RAK1068](complaint_id)
+    - [RAK1069](complaint_id)
+    - [RAK1070](complaint_id)
+    - [RAK1071](complaint_id)
+    - [RAK1072](complaint_id)
+    - [RAK1073](complaint_id)
+    - [RAK1074](complaint_id)
+    - [RAK1075](complaint_id)
+    - [RAK1076](complaint_id)
+    - [RAK1077](complaint_id)
+    - [RAK1078](complaint_id)
+    - [RAK1079](complaint_id)
+    - [RAK1080](complaint_id)
+    - [RAK1081](complaint_id)
+    - [RAK1082](complaint_id)
+    - [RAK1083](complaint_id)
+    - [RAK1084](complaint_id)
+    - [RAK1085](complaint_id)
+    - [RAK1086](complaint_id)
+    - [RAK1087](complaint_id)
+    - [RAK1088](complaint_id)
+    - [RAK1089](complaint_id)
+    - [RAK1090](complaint_id)
+    - [RAK1091](complaint_id)
+    - [RAK1092](complaint_id)
+    - [RAK1093](complaint_id)
+    - [RAK1094](complaint_id)
+    - [RAK1095](complaint_id)
+    - [RAK1096](complaint_id)
+    - [RAK1097](complaint_id)
+    - [RAK1098](complaint_id)
+    - [RAK1099](complaint_id)
+    - [RAK1100](complaint_id)
+    - [RAK1101](complaint_id)
+    - [RAK1102](complaint_id)
+    - [RAK1103](complaint_id)
+    - [RAK1104](complaint_id)
+    - [RAK1105](complaint_id)
+    - [RAK1106](complaint_id)
+    - [RAK1107](complaint_id)
+    - [RAK1108](complaint_id)
+    - [RAK1109](complaint_id)
+    - [RAK1110](complaint_id)
+    - [RAK1111](complaint_id)
+    - [RAK1112](complaint_id)
+    - [RAK1113](complaint_id)
+    - [RAK1114](complaint_id)
+    - [RAK1115](complaint_id)
+    - [RAK1116](complaint_id)
+    - [RAK1117](complaint_id)
+    - [RAK1118](complaint_id)
+    - [RAK1119](complaint_id)
+    - [RAK1120](complaint_id)
+    - [RAK1121](complaint_id)
+    - [RAK1122](complaint_id)
+    - [RAK1123](complaint_id)
+    - [RAK1124](complaint_id)
+    - [RAK1125](complaint_id)
+    - [RAK1126](complaint_id)
+    - [RAK1127](complaint_id)
+    - [RAK1128](complaint_id)
+    - [RAK1129](complaint_id)
+    - [RAK1130](complaint_id)
+    - [RAK1131](complaint_id)
+    - [RAK1132](complaint_id)
+    - [RAK1133](complaint_id)
+    - [RAK1134](complaint_id)
+    - [RAK1135](complaint_id)
+    - [RAK1136](complaint_id)
+    - [RAK1137](complaint_id)
+    - [RAK1138](complaint_id)
+    - [RAK1139](complaint_id)
+    - [RAK1140](complaint_id)
+    - [RAK1141](complaint_id)
+    - [RAK1142](complaint_id)
+    - [RAK1143](complaint_id)
+    - [RAK1144](complaint_id)
+    - [RAK1145](complaint_id)
+    - [RAK1146](complaint_id)
+    - [RAK1147](complaint_id)
+    - [RAK1148](complaint_id)
+    - [RAK1149](complaint_id)
+    - [RAK1150](complaint_id)
+    - [RAK1151](complaint_id)
+    - [RAK1152](complaint_id)
+    - [RAK1153](complaint_id)
+    - [RAK1154](complaint_id)
+    - [RAK1155](complaint_id)
+    - [RAK1156](complaint_id)
+    - [RAK1157](complaint_id)
+    - [RAK1158](complaint_id)
+    - [RAK1159](complaint_id)
+    - [RAK1160](complaint_id)
+    - [RAK1161](complaint_id)
+    - [RAK1162](complaint_id)
+    - [RAK1163](complaint_id)
+    - [RAK1164](complaint_id)
+    - [RAK1165](complaint_id)
+    - [RAK1166](complaint_id)
+    - [RAK1167](complaint_id)
+    - [RAK1168](complaint_id)
+    - [RAK1169](complaint_id)
+    - [RAK1170](complaint_id)
+    - [RAK1171](complaint_id)
+    - [RAK1172](complaint_id)
+    - [RAK1173](complaint_id)
+    - [RAK1174](complaint_id)
+    - [RAK1175](complaint_id)
+    - [RAK1176](complaint_id)
+    - [RAK1177](complaint_id)
+    - [RAK1178](complaint_id)
+    - [RAK1179](complaint_id)
+    - [RAK1180](complaint_id)
+    - [RAK1181](complaint_id)
+    - [RAK1182](complaint_id)
+    - [RAK1183](complaint_id)
+    - [RAK1184](complaint_id)
+    - [RAK1185](complaint_id)
+    - [RAK1186](complaint_id)
+    - [RAK1187](complaint_id)
+    - [RAK1188](complaint_id)
+    - [RAK1189](complaint_id)
+    - [RAK1190](complaint_id)
+    - [RAK1191](complaint_id)
+    - [RAK1192](complaint_id)
+    - [RAK1193](complaint_id)
+    - [RAK1194](complaint_id)
+    - [RAK1195](complaint_id)
+    - [RAK1196](complaint_id)
+    - [RAK1197](complaint_id)
+    - [RAK1198](complaint_id)
+    - [RAK1199](complaint_id)
+    - [RAK9818](complaint_id)
+    - [RAK6716](complaint_id)
+    - [RAK3504](complaint_id)
+    - [RAK6186](complaint_id)
+    - [RAK4617](complaint_id)
+    - [RAK4711](complaint_id)
+    - [RAK8911](complaint_id)
+    - [RAK8156](complaint_id)
+    - [RAK6174](complaint_id)
+    - [RAK5010](complaint_id)
+    - [RAK9214](complaint_id)
+    - [RAK3921](complaint_id)
+    - [RAK6404](complaint_id)
+    - [RAK1903](complaint_id)
+    - [RAK7040](complaint_id)
+    - [RAK8610](complaint_id)
+    - [RAK5731](complaint_id)
+    - [RAK3408](complaint_id)
+    - [RAK2978](complaint_id)
+    - [RAK7015](complaint_id)
+    - [RAK5292](complaint_id)
+    - [RAK4916](complaint_id)
+    - [RAK2075](complaint_id)
+    - [RAK2659](complaint_id)
+    - [RAK6398](complaint_id)
+    - [RAK8719](complaint_id)
+    - [RAK1917](complaint_id)
+    - [RAK5898](complaint_id)
+    - [RAK2064](complaint_id)
+    - [RAK9841](complaint_id)
+    - [RAK4110](complaint_id)
+    - [RAK1245](complaint_id)
+    - [RAK6939](complaint_id)
+    - [RAK1750](complaint_id)
+    - [RAK4026](complaint_id)
+    - [RAK5540](complaint_id)
+    - [RAK4276](complaint_id)
+    - [RAK1477](complaint_id)
+    - [RAK5615](complaint_id)
+    - [RAK3927](complaint_id)
+    - [RAK5332](complaint_id)
+    - [RAK1290](complaint_id)
+    - [RAK6453](complaint_id)
+    - [RAK7135](complaint_id)
+    - [RAK7209](complaint_id)
+    - [RAK3531](complaint_id)
+    - [RAK3649](complaint_id)
+    - [RAK2633](complaint_id)
+    - [RAK5136](complaint_id)
+    - [RAK7350](complaint_id)
+    - [RAK4301](complaint_id)
+    - [RAK6421](complaint_id)
+    - [RAK8057](complaint_id)
+    - [RAK5978](complaint_id)
+    - [RAK2907](complaint_id)
+    - [RAK9850](complaint_id)
+    - [RAK8108](complaint_id)
+    - [RAK8899](complaint_id)
+    - [RAK4107](complaint_id)
+    - [RAK6851](complaint_id)
+    - [RAK6479](complaint_id)
+    - [RAK9028](complaint_id)
+    - [RAK3123](complaint_id)
+    - [RAK4888](complaint_id)
+    - [RAK2700](complaint_id)
+    - [RAK6688](complaint_id)
+    - [RAK3268](complaint_id)
+    - [RAK2512](complaint_id)
+    - [RAK2653](complaint_id)
+    - [RAK4639](complaint_id)
+    - [RAK5317](complaint_id)
+    - [RAK6637](complaint_id)
+    - [RAK3894](complaint_id)
+    - [RAK4544](complaint_id)
+    - [RAK2256](complaint_id)
+    - [RAK8618](complaint_id)
+    - [RAK2692](complaint_id)
+    - [RAK5242](complaint_id)
+    - [RAK6606](complaint_id)
+    - [RAK1233](complaint_id)
+    - [RAK8274](complaint_id)
+    - [RAK1881](complaint_id)
+    - [RAK6372](complaint_id)
+    - [RAK9752](complaint_id)
+    - [RAK1490](complaint_id)
+    - [RAK4221](complaint_id)
+    - [RAK6195](complaint_id)
+    - [RAK7702](complaint_id)
+    - [RAK7965](complaint_id)
+    - [RAK8681](complaint_id)
+    - [RAK2268](complaint_id)
+    - [RAK8739](complaint_id)
+    - [RAK9257](complaint_id)
+    - [RAK8228](complaint_id)
+    - [RAK2912](complaint_id)
+    - [RAK8301](complaint_id)
+    - [RAK9881](complaint_id)
+    - [RAK5420](complaint_id)
+    - [RAK9950](complaint_id)
+    - [RAK7307](complaint_id)
+    - [RAK6708](complaint_id)
+    - [RAK2407](complaint_id)
+    - [RAK5474](complaint_id)
+    - [RAK8395](complaint_id)
+    - [RAK1203](complaint_id)
+    - [RAK3868](complaint_id)
+    - [RAK9907](complaint_id)
+    - [RAK9514](complaint_id)
+    - [RAK9573](complaint_id)
+    - [RAK6430](complaint_id)
+    - [RAK7529](complaint_id)
+    - [RAK1533](complaint_id)
+    - [RAK9249](complaint_id)
+    - [RAK8607](complaint_id)
+    - [RAK1498](complaint_id)
+    - [RAK7877](complaint_id)
+    - [RAK5540](complaint_id)
+    - [RAK3604](complaint_id)
+    - [RAK8214](complaint_id)
+    - [RAK8023](complaint_id)
+    - [RAK8149](complaint_id)
+    - [RAK9433](complaint_id)
+    - [RAK7963](complaint_id)
+    - [RAK1357](complaint_id)
+    - [RAK1867](complaint_id)
+    - [RAK8400](complaint_id)
+    - [RAK3011](complaint_id)
+    - [RAK7417](complaint_id)
+    - [RAK1975](complaint_id)
+    - [RAK5047](complaint_id)
+    - [RAK7006](complaint_id)
+    - [RAK7082](complaint_id)
+    - [RAK7475](complaint_id)
+    - [RAK5892](complaint_id)
+    - [RAK9526](complaint_id)
+    - [RAK7110](complaint_id)
+    - [RAK3731](complaint_id)
+    - [RAK3261](complaint_id)
+    - [RAK4519](complaint_id)
+    - [RAK9198](complaint_id)
+    - [RAK1683](complaint_id)
+    - [RAK1806](complaint_id)
+    - [RAK7443](complaint_id)
+    - [RAK7780](complaint_id)
+    - [RAK2934](complaint_id)
+    - [RAK3094](complaint_id)
+    - [RAK4429](complaint_id)
+    - [RAK4419](complaint_id)
+    - [RAK6548](complaint_id)
+    - [RAK8720](complaint_id)
+    - [RAK4283](complaint_id)
+    - [RAK5807](complaint_id)
+    - [RAK9137](complaint_id)
+    - [RAK5563](complaint_id)
+    - [RAK7744](complaint_id)
+    - [RAK6783](complaint_id)
+    - [RAK7888](complaint_id)
+    - [RAK7377](complaint_id)
+    - [RAK1894](complaint_id)
+    - [RAK7694](complaint_id)
+    - [RAK4529](complaint_id)
+    - [RAK7940](complaint_id)
+    - [RAK2215](complaint_id)
+    - [RAK6595](complaint_id)
+    - [RAK7405](complaint_id)
+    - [RAK7429](complaint_id)
+    - [RAK3342](complaint_id)
+    - [RAK5396](complaint_id)
+    - [RAK1464](complaint_id)
+    - [RAK4374](complaint_id)
+    - [RAK6629](complaint_id)
+    - [RAK2741](complaint_id)
+    - [RAK7107](complaint_id)
+    - [RAK3869](complaint_id)
+    - [RAK4611](complaint_id)
+    - [RAK1992](complaint_id)
+    - [RAK7063](complaint_id)
+    - [RAK6594](complaint_id)
+    - [RAK8046](complaint_id)
+    - [RAK5307](complaint_id)
+    - [RAK5201](complaint_id)
+    - [RAK9233](complaint_id)
+    - [RAK2409](complaint_id)
+    - [RAK3504](complaint_id)
+    - [RAK4392](complaint_id)
+    - [RAK9673](complaint_id)
+    - [RAK3577](complaint_id)
+    - [RAK3706](complaint_id)
+    - [RAK4826](complaint_id)
+    - [RAK5903](complaint_id)
+    - [RAK7987](complaint_id)
+    - [RAK6338](complaint_id)
+    - [RAK4328](complaint_id)
+    - [RAK7275](complaint_id)
+    - [RAK5122](complaint_id)
+    - [RAK3206](complaint_id)
+    - [RAK8148](complaint_id)
+    - [RAK8760](complaint_id)
+    - [RAK1918](complaint_id)
+    - [RAK5084](complaint_id)
 
-- intent: complaint_raise
-  examples: |   
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - Complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
-    - Complaint Raised
+- intent: track_raised
+  examples: |
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - Complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+    - Complaint Tracked
+
+- intent: suggestion_raised
+  examples: |
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - Suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given
+    - Suggestion Given

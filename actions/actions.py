@@ -19,6 +19,7 @@ from rasa_sdk.events import SlotSet
 client = MongoClient('mongodb+srv://damudheshkt:Amudhesh_rasa@cluster0.upd64s4.mongodb.net/')
 db = client['RAK_PSD']
 complaint_collection = db['complaints']
+suggestion_collection = db['suggestions']
 
 class ActionSendOptions(Action):
 
@@ -109,11 +110,16 @@ class ActionAskforTrackComments(Action):
     def run(self ,dispatcher:CollectingDispatcher,
             tracker:Tracker,
             domain: Dict[Text,Any]) -> List[Dict[Text,Any]]:
+        
+        complaint_id = tracker.get_slot("complaint_id")
+        print(f"{complaint_id}")
         resp = {
                 "formType": "track your complaint",
+                "trackID": complaint_id,
 	            "form":[
 	                    {
-                            "type":"text","value":"Enter comments if any"
+                            "type":"text","value":"Enter comments if any",
+                            
 	                    }
                         ]
                 }
@@ -178,42 +184,91 @@ class ActionSubmitComplaint(Action):
         metadata = tracker.latest_message.get("metadata")
         complaint_form = metadata.get("complaint_form", {})
 
-        username = complaint_form.get("username")
-        email = complaint_form.get("email")
-        location = complaint_form.get("location")
-        complaint_details = complaint_form.get("complaint_details")
-        file = complaint_form.get("attachments")
-
-        if file:
-            # Read the file content as binary
-            file_content = file.read()
-
-            # Encode the file content as base64
-            encoded_content = base64.b64encode(file_content).decode()
 
         c = 1000
         for _ in complaint_collection.find():
             c += 1
         col_id = 'RAK' + str(c)
-        # Create a document to store in the complaint_collection
+        username = complaint_form.get("username")
+        email = complaint_form.get("email")
+        location = complaint_form.get("location")
+        complaint_details = complaint_form.get("complaint_details")
+        attachments = complaint_form.get("attachments")
+        complaint_status = complaint_form.get("complaint_status")
+        comments = complaint_form.get("comments")
+
+    # Create a document to store in the complaint_collection
         document = {
-                'filename': file.filename,
-                'content_type': file.content_type,
-                'content': encoded_content,
-                'username': username,
-                'email': email,
-                'location': location,
-                'complaint_details': complaint_details,
-                'complaint_id': col_id,
-                'complaint_status': 'pending',
-                'comments': 'nil'
-            }
+            'username': username,
+            'email': email,
+            'location': location,
+            'complaint_details': complaint_details,
+            'attachments': attachments,
+            'complaint_id': col_id,
+            'complaint_status': complaint_status,
+            'comments': comments
+        }
 
             # Insert the document into the complaint_collection
         result = complaint_collection.insert_one(document)
         file_id = str(result.inserted_id)
-        dispatcher.utter_message(text=f"Complaint with ID {col_id} has been raised successfully.")
-        return [SlotSet("file_id", file_id)]
+        dispatcher.utter_message(text=f"Complaint with ID: {col_id} has been raised successfully.")
+        
 
         return []
     
+class ActionSubmitTrack(Action):
+
+    def name(self) -> Text:
+        return "action_submit_track"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        metadata = tracker.latest_message.get("metadata")
+        track_form = metadata.get("track_form", {})
+
+
+        c = 1000
+        for _ in complaint_collection.find():
+            c += 1
+        col_id = 'RAK' + str(c)
+        complaint_id = track_form.get("complaint_id")
+        comments = track_form.get("comments")
+        
+        resp = complaint_collection.update_one({'complaint_id':complaint_id},{"$set":{'comments':comments}})
+        return []
+    
+class ActionSubmitSuggestion(Action):
+
+    def name(self) -> Text:
+        return "action_submit_suggestion"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        metadata = tracker.latest_message.get("metadata")
+        suggestion_form = metadata.get("suggestion_form", {})
+
+        username = suggestion_form.get("username")
+        email = suggestion_form.get("email")
+        location = suggestion_form.get("location")
+        suggestion_details = suggestion_form.get("complaint_details")
+        attachments = suggestion_form.get("attachments")
+
+    # Create a document to store in the complaint_collection
+        document = {
+            'username': username,
+            'email': email,
+            'location': location,
+            'complaint_details': suggestion_details,
+            'attachments': attachments,
+        }
+
+            # Insert the document into the complaint_collection
+        result = suggestion_collection.insert_one(document)
+        file_id = str(result.inserted_id)
+        dispatcher.utter_message(text="Suggestion saved")
+        
+
+        return []

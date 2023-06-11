@@ -60,6 +60,8 @@ async def track_complaint(complaint_id:str = Form(...),comments:str = Form(None)
         print(complaint_id)
         resp = complaint_collection.find_one({'complaint_id':complaint_id})
         print (resp)
+        trackID = complaint_id
+        print(complaint_id)
         status = resp['complaint_status']
         return status
     else:  

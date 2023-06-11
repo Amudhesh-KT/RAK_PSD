@@ -22,6 +22,7 @@ rules:
   - intent: raise_complaint
   - action:  action_send_raise_complaint
 
+
 - rule: Get complaint ID
   steps:
   - intent: track_complaint
@@ -46,3 +47,13 @@ rules:
   steps:
   - intent: complaint_raise
   - action: action_submit_complaint
+
+- rule: Submit track form
+  steps:
+  - intent: track_raised
+  - action: action_submit_track
+
+- rule: Submit suggestion form
+  steps:
+  - intent: suggestion_raised
+  - action: action_submit_suggestion

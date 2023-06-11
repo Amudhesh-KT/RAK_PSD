@@ -14,6 +14,8 @@ intents:
   - language_arabic
   - complaint_number
   - complaint_raise
+  - track_raised
+  - suggestion_raised
 #****************************************RAISE_COMPLAINT****************************************************
   - raise_complaint
 #****************************************RAISE_COMPLAINT****************************************************
@@ -29,6 +31,17 @@ intents:
 #****************************************SERVICES**********************************************************  
   - apply_services
 #****************************************SERVICES**********************************************************
+entities:
+  - complaint_id:
+      type: text
+
+slots:
+  complaint_id:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: complaint_id
 
 responses:
   utter_greet:
@@ -58,6 +71,8 @@ actions:
 - action_send_track_comments
 - action_send_complaintid
 - action_submit_complaint
+- action_submit_track
+- action_submit_suggestion
 
 
 session_config:
