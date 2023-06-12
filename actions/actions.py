@@ -86,13 +86,20 @@ class ActionSendComplaintID(Action):
     def run(self ,dispatcher:CollectingDispatcher,
             tracker:Tracker,
             domain: Dict[Text,Any]) -> List[Dict[Text,Any]]:
+        metadata = tracker.latest_message.get("metadata")
+        form = metadata.get('track_form')
+        # username = form.get(username)
+        username = "aravind"
+        user_filter = complaint_collection.find({"username": username})
+        track_id = []
+        for i in user_filter:
+        
+            track_id_str = i.get("complaint_id")
+            track_id.append(track_id_str)
+
         resp = {
                 "formType": "track your complaint",
-	            "form":[
-	                    {
-                            "type":"text","value":"Enter complaint number"
-	                    }
-                        ]
+	            "trackbutton":track_id
                 }
 
         response_json = json.dumps(resp)
@@ -110,7 +117,8 @@ class ActionAskforTrackComments(Action):
     def run(self ,dispatcher:CollectingDispatcher,
             tracker:Tracker,
             domain: Dict[Text,Any]) -> List[Dict[Text,Any]]:
-        
+    
+
         complaint_id = tracker.get_slot("complaint_id")
         print(f"{complaint_id}")
         status_id = complaint_collection.find_one({"complaint_id": complaint_id})
@@ -119,15 +127,25 @@ class ActionAskforTrackComments(Action):
             # for status in status_id:
             # Do something with the user data
             statusI = status_id.get('complaint_status')
+            complait_details = status_id.get('complaint_details')
+            comments = status_id.get('comments')
             print(statusI)
             resp = {
                 "formType": "track your complaint",
                 "trackID": complaint_id,
-                "status": statusI,
-             "form":[
+                
+             "complaint_details":[
                      {
                             "type":"text","value":"Enter comments if any",
-
+                     },
+                     {
+                            "title":"comment","value": comments,
+                     },
+                     {
+                            "title":"complaint_details","value":complait_details,
+                     },
+                     {
+                            "title":"status","value": statusI,
                      }
                         ]
                 }
