@@ -85,6 +85,85 @@ nlu:
     - English
     - English
     - English
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+    - Menu
+
 - intent: language_arabic
   examples: |
     - Arabic
@@ -237,6 +316,7 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
 
 - intent: raise_complaint
   examples: |
@@ -400,6 +480,1266 @@ nlu:
     - Raise a complaint
     - Raise a complaint
     - Raise a complaint
+    - could you please raise a complaint
+    - can you raise a complaint
+    - Please raise a complaint
+    - raise a complaint
+    - raise complaint
+    - could you please raise a Complaint
+    - can you raise a Complaint
+    - Please raise a Complaint
+    - raise a Complaint
+    - raise Complaint
+    - could you please raise a COMPLAINT
+    - can you raise a COMPLAINT
+    - Please raise a COMPLAINT
+    - raise a COMPLAINT
+    - raise COMPLAINT
+    - could you please raise a Complaint
+    - can you raise a Complaint
+    - Please raise a Complaint
+    - raise a Complaint
+    - raise Complaint
+    - could you please raise a complanit
+    - can you raise a complanit
+    - Please raise a complanit
+    - raise a complanit
+    - raise complanit
+    - could you please raise a Complainet
+    - can you raise a Complainet
+    - Please raise a Complainet
+    - raise a Complainet
+    - raise Complainet
+    - could you please raise a complient
+    - can you raise a complient
+    - Please raise a complient
+    - raise a complient
+    - raise complient
+    - could you please raise a Complent
+    - can you raise a Complent
+    - Please raise a Complent
+    - raise a Complent
+    - raise Complent
+    - could you please raise a complainnt
+    - can you raise a complainnt
+    - Please raise a complainnt
+    - raise a complainnt
+    - raise complainnt
+    - could you please raise a compaint
+    - can you raise a compaint
+    - Please raise a compaint
+    - raise a compaint
+    - raise compaint
+    - could you please raise a compalint
+    - can you raise a compalint
+    - Please raise a compalint
+    - raise a compalint
+    - raise compalint
+    - could you please raise a complaiint
+    - can you raise a complaiint
+    - Please raise a complaiint
+    - raise a complaiint
+    - raise complaiint
+    - could you please raise a complaiant
+    - can you raise a complaiant
+    - Please raise a complaiant
+    - raise a complaiant
+    - raise complaiant
+    - could you please raise a cmplaint
+    - can you raise a cmplaint
+    - Please raise a cmplaint
+    - raise a cmplaint
+    - raise cmplaint
+    - could you please raise a complt
+    - can you raise a complt
+    - Please raise a complt
+    - raise a complt
+    - raise complt
+    - could you please raise a complnt
+    - can you raise a complnt
+    - Please raise a complnt
+    - raise a complnt
+    - raise complnt
+    - could you please raise a complait
+    - can you raise a complait
+    - Please raise a complait
+    - raise a complait
+    - raise complait
+    - could you please raise a cmplnt
+    - can you raise a cmplnt
+    - Please raise a cmplnt
+    - raise a cmplnt
+    - raise cmplnt
+    - could you please raise a complent
+    - can you raise a complent
+    - Please raise a complent
+    - raise a complent
+    - raise complent
+    - could you please raise a cmplait
+    - can you raise a cmplait
+    - Please raise a cmplait
+    - raise a cmplait
+    - raise cmplait
+    - could you please raise a cmplint
+    - can you raise a cmplint
+    - Please raise a cmplint
+    - raise a cmplint
+    - raise cmplint
+    - could you please Raise a complaint
+    - can you Raise a complaint
+    - Please Raise a complaint
+    - Raise a complaint
+    - Raise complaint
+    - could you please Raise a Complaint
+    - can you Raise a Complaint
+    - Please Raise a Complaint
+    - Raise a Complaint
+    - Raise Complaint
+    - could you please Raise a COMPLAINT
+    - can you Raise a COMPLAINT
+    - Please Raise a COMPLAINT
+    - Raise a COMPLAINT
+    - Raise COMPLAINT
+    - could you please Raise a Complaint
+    - can you Raise a Complaint
+    - Please Raise a Complaint
+    - Raise a Complaint
+    - Raise Complaint
+    - could you please Raise a complanit
+    - can you Raise a complanit
+    - Please Raise a complanit
+    - Raise a complanit
+    - Raise complanit
+    - could you please Raise a Complainet
+    - can you Raise a Complainet
+    - Please Raise a Complainet
+    - Raise a Complainet
+    - Raise Complainet
+    - could you please Raise a complient
+    - can you Raise a complient
+    - Please Raise a complient
+    - Raise a complient
+    - Raise complient
+    - could you please Raise a Complent
+    - can you Raise a Complent
+    - Please Raise a Complent
+    - Raise a Complent
+    - Raise Complent
+    - could you please Raise a complainnt
+    - can you Raise a complainnt
+    - Please Raise a complainnt
+    - Raise a complainnt
+    - Raise complainnt
+    - could you please Raise a compaint
+    - can you Raise a compaint
+    - Please Raise a compaint
+    - Raise a compaint
+    - Raise compaint
+    - could you please Raise a compalint
+    - can you Raise a compalint
+    - Please Raise a compalint
+    - Raise a compalint
+    - Raise compalint
+    - could you please Raise a complaiint
+    - can you Raise a complaiint
+    - Please Raise a complaiint
+    - Raise a complaiint
+    - Raise complaiint
+    - could you please Raise a complaiant
+    - can you Raise a complaiant
+    - Please Raise a complaiant
+    - Raise a complaiant
+    - Raise complaiant
+    - could you please Raise a cmplaint
+    - can you Raise a cmplaint
+    - Please Raise a cmplaint
+    - Raise a cmplaint
+    - Raise cmplaint
+    - could you please Raise a complt
+    - can you Raise a complt
+    - Please Raise a complt
+    - Raise a complt
+    - Raise complt
+    - could you please Raise a complnt
+    - can you Raise a complnt
+    - Please Raise a complnt
+    - Raise a complnt
+    - Raise complnt
+    - could you please Raise a complait
+    - can you Raise a complait
+    - Please Raise a complait
+    - Raise a complait
+    - Raise complait
+    - could you please Raise a cmplnt
+    - can you Raise a cmplnt
+    - Please Raise a cmplnt
+    - Raise a cmplnt
+    - Raise cmplnt
+    - could you please Raise a complent
+    - can you Raise a complent
+    - Please Raise a complent
+    - Raise a complent
+    - Raise complent
+    - could you please Raise a cmplait
+    - can you Raise a cmplait
+    - Please Raise a cmplait
+    - Raise a cmplait
+    - Raise cmplait
+    - could you please Raise a cmplint
+    - can you Raise a cmplint
+    - Please Raise a cmplint
+    - Raise a cmplint
+    - Raise cmplint
+    - could you please RAISE a complaint
+    - can you RAISE a complaint
+    - Please RAISE a complaint
+    - RAISE a complaint
+    - RAISE complaint
+    - could you please RAISE a Complaint
+    - can you RAISE a Complaint
+    - Please RAISE a Complaint
+    - RAISE a Complaint
+    - RAISE Complaint
+    - could you please RAISE a COMPLAINT
+    - can you RAISE a COMPLAINT
+    - Please RAISE a COMPLAINT
+    - RAISE a COMPLAINT
+    - RAISE COMPLAINT
+    - could you please RAISE a Complaint
+    - can you RAISE a Complaint
+    - Please RAISE a Complaint
+    - RAISE a Complaint
+    - RAISE Complaint
+    - could you please RAISE a complanit
+    - can you RAISE a complanit
+    - Please RAISE a complanit
+    - RAISE a complanit
+    - RAISE complanit
+    - could you please RAISE a Complainet
+    - can you RAISE a Complainet
+    - Please RAISE a Complainet
+    - RAISE a Complainet
+    - RAISE Complainet
+    - could you please RAISE a complient
+    - can you RAISE a complient
+    - Please RAISE a complient
+    - RAISE a complient
+    - RAISE complient
+    - could you please RAISE a Complent
+    - can you RAISE a Complent
+    - Please RAISE a Complent
+    - RAISE a Complent
+    - RAISE Complent
+    - could you please RAISE a complainnt
+    - can you RAISE a complainnt
+    - Please RAISE a complainnt
+    - RAISE a complainnt
+    - RAISE complainnt
+    - could you please RAISE a compaint
+    - can you RAISE a compaint
+    - Please RAISE a compaint
+    - RAISE a compaint
+    - RAISE compaint
+    - could you please RAISE a compalint
+    - can you RAISE a compalint
+    - Please RAISE a compalint
+    - RAISE a compalint
+    - RAISE compalint
+    - could you please RAISE a complaiint
+    - can you RAISE a complaiint
+    - Please RAISE a complaiint
+    - RAISE a complaiint
+    - RAISE complaiint
+    - could you please RAISE a complaiant
+    - can you RAISE a complaiant
+    - Please RAISE a complaiant
+    - RAISE a complaiant
+    - RAISE complaiant
+    - could you please RAISE a cmplaint
+    - can you RAISE a cmplaint
+    - Please RAISE a cmplaint
+    - RAISE a cmplaint
+    - RAISE cmplaint
+    - could you please RAISE a complt
+    - can you RAISE a complt
+    - Please RAISE a complt
+    - RAISE a complt
+    - RAISE complt
+    - could you please RAISE a complnt
+    - can you RAISE a complnt
+    - Please RAISE a complnt
+    - RAISE a complnt
+    - RAISE complnt
+    - could you please RAISE a complait
+    - can you RAISE a complait
+    - Please RAISE a complait
+    - RAISE a complait
+    - RAISE complait
+    - could you please RAISE a cmplnt
+    - can you RAISE a cmplnt
+    - Please RAISE a cmplnt
+    - RAISE a cmplnt
+    - RAISE cmplnt
+    - could you please RAISE a complent
+    - can you RAISE a complent
+    - Please RAISE a complent
+    - RAISE a complent
+    - RAISE complent
+    - could you please RAISE a cmplait
+    - can you RAISE a cmplait
+    - Please RAISE a cmplait
+    - RAISE a cmplait
+    - RAISE cmplait
+    - could you please RAISE a cmplint
+    - can you RAISE a cmplint
+    - Please RAISE a cmplint
+    - RAISE a cmplint
+    - RAISE cmplint
+    - could you please Rase a complaint
+    - can you Rase a complaint
+    - Please Rase a complaint
+    - Rase a complaint
+    - Rase complaint
+    - could you please Rase a Complaint
+    - can you Rase a Complaint
+    - Please Rase a Complaint
+    - Rase a Complaint
+    - Rase Complaint
+    - could you please Rase a COMPLAINT
+    - can you Rase a COMPLAINT
+    - Please Rase a COMPLAINT
+    - Rase a COMPLAINT
+    - Rase COMPLAINT
+    - could you please Rase a Complaint
+    - can you Rase a Complaint
+    - Please Rase a Complaint
+    - Rase a Complaint
+    - Rase Complaint
+    - could you please Rase a complanit
+    - can you Rase a complanit
+    - Please Rase a complanit
+    - Rase a complanit
+    - Rase complanit
+    - could you please Rase a Complainet
+    - can you Rase a Complainet
+    - Please Rase a Complainet
+    - Rase a Complainet
+    - Rase Complainet
+    - could you please Rase a complient
+    - can you Rase a complient
+    - Please Rase a complient
+    - Rase a complient
+    - Rase complient
+    - could you please Rase a Complent
+    - can you Rase a Complent
+    - Please Rase a Complent
+    - Rase a Complent
+    - Rase Complent
+    - could you please Rase a complainnt
+    - can you Rase a complainnt
+    - Please Rase a complainnt
+    - Rase a complainnt
+    - Rase complainnt
+    - could you please Rase a compaint
+    - can you Rase a compaint
+    - Please Rase a compaint
+    - Rase a compaint
+    - Rase compaint
+    - could you please Rase a compalint
+    - can you Rase a compalint
+    - Please Rase a compalint
+    - Rase a compalint
+    - Rase compalint
+    - could you please Rase a complaiint
+    - can you Rase a complaiint
+    - Please Rase a complaiint
+    - Rase a complaiint
+    - Rase complaiint
+    - could you please Rase a complaiant
+    - can you Rase a complaiant
+    - Please Rase a complaiant
+    - Rase a complaiant
+    - Rase complaiant
+    - could you please Rase a cmplaint
+    - can you Rase a cmplaint
+    - Please Rase a cmplaint
+    - Rase a cmplaint
+    - Rase cmplaint
+    - could you please Rase a complt
+    - can you Rase a complt
+    - Please Rase a complt
+    - Rase a complt
+    - Rase complt
+    - could you please Rase a complnt
+    - can you Rase a complnt
+    - Please Rase a complnt
+    - Rase a complnt
+    - Rase complnt
+    - could you please Rase a complait
+    - can you Rase a complait
+    - Please Rase a complait
+    - Rase a complait
+    - Rase complait
+    - could you please Rase a cmplnt
+    - can you Rase a cmplnt
+    - Please Rase a cmplnt
+    - Rase a cmplnt
+    - Rase cmplnt
+    - could you please Rase a complent
+    - can you Rase a complent
+    - Please Rase a complent
+    - Rase a complent
+    - Rase complent
+    - could you please Rase a cmplait
+    - can you Rase a cmplait
+    - Please Rase a cmplait
+    - Rase a cmplait
+    - Rase cmplait
+    - could you please Rase a cmplint
+    - can you Rase a cmplint
+    - Please Rase a cmplint
+    - Rase a cmplint
+    - Rase cmplint
+    - could you please Rasie a complaint
+    - can you Rasie a complaint
+    - Please Rasie a complaint
+    - Rasie a complaint
+    - Rasie complaint
+    - could you please Rasie a Complaint
+    - can you Rasie a Complaint
+    - Please Rasie a Complaint
+    - Rasie a Complaint
+    - Rasie Complaint
+    - could you please Rasie a COMPLAINT
+    - can you Rasie a COMPLAINT
+    - Please Rasie a COMPLAINT
+    - Rasie a COMPLAINT
+    - Rasie COMPLAINT
+    - could you please Rasie a Complaint
+    - can you Rasie a Complaint
+    - Please Rasie a Complaint
+    - Rasie a Complaint
+    - Rasie Complaint
+    - could you please Rasie a complanit
+    - can you Rasie a complanit
+    - Please Rasie a complanit
+    - Rasie a complanit
+    - Rasie complanit
+    - could you please Rasie a Complainet
+    - can you Rasie a Complainet
+    - Please Rasie a Complainet
+    - Rasie a Complainet
+    - Rasie Complainet
+    - could you please Rasie a complient
+    - can you Rasie a complient
+    - Please Rasie a complient
+    - Rasie a complient
+    - Rasie complient
+    - could you please Rasie a Complent
+    - can you Rasie a Complent
+    - Please Rasie a Complent
+    - Rasie a Complent
+    - Rasie Complent
+    - could you please Rasie a complainnt
+    - can you Rasie a complainnt
+    - Please Rasie a complainnt
+    - Rasie a complainnt
+    - Rasie complainnt
+    - could you please Rasie a compaint
+    - can you Rasie a compaint
+    - Please Rasie a compaint
+    - Rasie a compaint
+    - Rasie compaint
+    - could you please Rasie a compalint
+    - can you Rasie a compalint
+    - Please Rasie a compalint
+    - Rasie a compalint
+    - Rasie compalint
+    - could you please Rasie a complaiint
+    - can you Rasie a complaiint
+    - Please Rasie a complaiint
+    - Rasie a complaiint
+    - Rasie complaiint
+    - could you please Rasie a complaiant
+    - can you Rasie a complaiant
+    - Please Rasie a complaiant
+    - Rasie a complaiant
+    - Rasie complaiant
+    - could you please Rasie a cmplaint
+    - can you Rasie a cmplaint
+    - Please Rasie a cmplaint
+    - Rasie a cmplaint
+    - Rasie cmplaint
+    - could you please Rasie a complt
+    - can you Rasie a complt
+    - Please Rasie a complt
+    - Rasie a complt
+    - Rasie complt
+    - could you please Rasie a complnt
+    - can you Rasie a complnt
+    - Please Rasie a complnt
+    - Rasie a complnt
+    - Rasie complnt
+    - could you please Rasie a complait
+    - can you Rasie a complait
+    - Please Rasie a complait
+    - Rasie a complait
+    - Rasie complait
+    - could you please Rasie a cmplnt
+    - can you Rasie a cmplnt
+    - Please Rasie a cmplnt
+    - Rasie a cmplnt
+    - Rasie cmplnt
+    - could you please Rasie a complent
+    - can you Rasie a complent
+    - Please Rasie a complent
+    - Rasie a complent
+    - Rasie complent
+    - could you please Rasie a cmplait
+    - can you Rasie a cmplait
+    - Please Rasie a cmplait
+    - Rasie a cmplait
+    - Rasie cmplait
+    - could you please Rasie a cmplint
+    - can you Rasie a cmplint
+    - Please Rasie a cmplint
+    - Rasie a cmplint
+    - Rasie cmplint
+    - could you please Rise a complaint
+    - can you Rise a complaint
+    - Please Rise a complaint
+    - Rise a complaint
+    - Rise complaint
+    - could you please Rise a Complaint
+    - can you Rise a Complaint
+    - Please Rise a Complaint
+    - Rise a Complaint
+    - Rise Complaint
+    - could you please Rise a COMPLAINT
+    - can you Rise a COMPLAINT
+    - Please Rise a COMPLAINT
+    - Rise a COMPLAINT
+    - Rise COMPLAINT
+    - could you please Rise a Complaint
+    - can you Rise a Complaint
+    - Please Rise a Complaint
+    - Rise a Complaint
+    - Rise Complaint
+    - could you please Rise a complanit
+    - can you Rise a complanit
+    - Please Rise a complanit
+    - Rise a complanit
+    - Rise complanit
+    - could you please Rise a Complainet
+    - can you Rise a Complainet
+    - Please Rise a Complainet
+    - Rise a Complainet
+    - Rise Complainet
+    - could you please Rise a complient
+    - can you Rise a complient
+    - Please Rise a complient
+    - Rise a complient
+    - Rise complient
+    - could you please Rise a Complent
+    - can you Rise a Complent
+    - Please Rise a Complent
+    - Rise a Complent
+    - Rise Complent
+    - could you please Rise a complainnt
+    - can you Rise a complainnt
+    - Please Rise a complainnt
+    - Rise a complainnt
+    - Rise complainnt
+    - could you please Rise a compaint
+    - can you Rise a compaint
+    - Please Rise a compaint
+    - Rise a compaint
+    - Rise compaint
+    - could you please Rise a compalint
+    - can you Rise a compalint
+    - Please Rise a compalint
+    - Rise a compalint
+    - Rise compalint
+    - could you please Rise a complaiint
+    - can you Rise a complaiint
+    - Please Rise a complaiint
+    - Rise a complaiint
+    - Rise complaiint
+    - could you please Rise a complaiant
+    - can you Rise a complaiant
+    - Please Rise a complaiant
+    - Rise a complaiant
+    - Rise complaiant
+    - could you please Rise a cmplaint
+    - can you Rise a cmplaint
+    - Please Rise a cmplaint
+    - Rise a cmplaint
+    - Rise cmplaint
+    - could you please Rise a complt
+    - can you Rise a complt
+    - Please Rise a complt
+    - Rise a complt
+    - Rise complt
+    - could you please Rise a complnt
+    - can you Rise a complnt
+    - Please Rise a complnt
+    - Rise a complnt
+    - Rise complnt
+    - could you please Rise a complait
+    - can you Rise a complait
+    - Please Rise a complait
+    - Rise a complait
+    - Rise complait
+    - could you please Rise a cmplnt
+    - can you Rise a cmplnt
+    - Please Rise a cmplnt
+    - Rise a cmplnt
+    - Rise cmplnt
+    - could you please Rise a complent
+    - can you Rise a complent
+    - Please Rise a complent
+    - Rise a complent
+    - Rise complent
+    - could you please Rise a cmplait
+    - can you Rise a cmplait
+    - Please Rise a cmplait
+    - Rise a cmplait
+    - Rise cmplait
+    - could you please Rise a cmplint
+    - can you Rise a cmplint
+    - Please Rise a cmplint
+    - Rise a cmplint
+    - Rise cmplint
+    - could you please rase a complaint
+    - can you rase a complaint
+    - Please rase a complaint
+    - rase a complaint
+    - rase complaint
+    - could you please rase a Complaint
+    - can you rase a Complaint
+    - Please rase a Complaint
+    - rase a Complaint
+    - rase Complaint
+    - could you please rase a COMPLAINT
+    - can you rase a COMPLAINT
+    - Please rase a COMPLAINT
+    - rase a COMPLAINT
+    - rase COMPLAINT
+    - could you please rase a Complaint
+    - can you rase a Complaint
+    - Please rase a Complaint
+    - rase a Complaint
+    - rase Complaint
+    - could you please rase a complanit
+    - can you rase a complanit
+    - Please rase a complanit
+    - rase a complanit
+    - rase complanit
+    - could you please rase a Complainet
+    - can you rase a Complainet
+    - Please rase a Complainet
+    - rase a Complainet
+    - rase Complainet
+    - could you please rase a complient
+    - can you rase a complient
+    - Please rase a complient
+    - rase a complient
+    - rase complient
+    - could you please rase a Complent
+    - can you rase a Complent
+    - Please rase a Complent
+    - rase a Complent
+    - rase Complent
+    - could you please rase a complainnt
+    - can you rase a complainnt
+    - Please rase a complainnt
+    - rase a complainnt
+    - rase complainnt
+    - could you please rase a compaint
+    - can you rase a compaint
+    - Please rase a compaint
+    - rase a compaint
+    - rase compaint
+    - could you please rase a compalint
+    - can you rase a compalint
+    - Please rase a compalint
+    - rase a compalint
+    - rase compalint
+    - could you please rase a complaiint
+    - can you rase a complaiint
+    - Please rase a complaiint
+    - rase a complaiint
+    - rase complaiint
+    - could you please rase a complaiant
+    - can you rase a complaiant
+    - Please rase a complaiant
+    - rase a complaiant
+    - rase complaiant
+    - could you please rase a cmplaint
+    - can you rase a cmplaint
+    - Please rase a cmplaint
+    - rase a cmplaint
+    - rase cmplaint
+    - could you please rase a complt
+    - can you rase a complt
+    - Please rase a complt
+    - rase a complt
+    - rase complt
+    - could you please rase a complnt
+    - can you rase a complnt
+    - Please rase a complnt
+    - rase a complnt
+    - rase complnt
+    - could you please rase a complait
+    - can you rase a complait
+    - Please rase a complait
+    - rase a complait
+    - rase complait
+    - could you please rase a cmplnt
+    - can you rase a cmplnt
+    - Please rase a cmplnt
+    - rase a cmplnt
+    - rase cmplnt
+    - could you please rase a complent
+    - can you rase a complent
+    - Please rase a complent
+    - rase a complent
+    - rase complent
+    - could you please rase a cmplait
+    - can you rase a cmplait
+    - Please rase a cmplait
+    - rase a cmplait
+    - rase cmplait
+    - could you please rase a cmplint
+    - can you rase a cmplint
+    - Please rase a cmplint
+    - rase a cmplint
+    - rase cmplint
+    - could you please RASE a complaint
+    - can you RASE a complaint
+    - Please RASE a complaint
+    - RASE a complaint
+    - RASE complaint
+    - could you please RASE a Complaint
+    - can you RASE a Complaint
+    - Please RASE a Complaint
+    - RASE a Complaint
+    - RASE Complaint
+    - could you please RASE a COMPLAINT
+    - can you RASE a COMPLAINT
+    - Please RASE a COMPLAINT
+    - RASE a COMPLAINT
+    - RASE COMPLAINT
+    - could you please RASE a Complaint
+    - can you RASE a Complaint
+    - Please RASE a Complaint
+    - RASE a Complaint
+    - RASE Complaint
+    - could you please RASE a complanit
+    - can you RASE a complanit
+    - Please RASE a complanit
+    - RASE a complanit
+    - RASE complanit
+    - could you please RASE a Complainet
+    - can you RASE a Complainet
+    - Please RASE a Complainet
+    - RASE a Complainet
+    - RASE Complainet
+    - could you please RASE a complient
+    - can you RASE a complient
+    - Please RASE a complient
+    - RASE a complient
+    - RASE complient
+    - could you please RASE a Complent
+    - can you RASE a Complent
+    - Please RASE a Complent
+    - RASE a Complent
+    - RASE Complent
+    - could you please RASE a complainnt
+    - can you RASE a complainnt
+    - Please RASE a complainnt
+    - RASE a complainnt
+    - RASE complainnt
+    - could you please RASE a compaint
+    - can you RASE a compaint
+    - Please RASE a compaint
+    - RASE a compaint
+    - RASE compaint
+    - could you please RASE a compalint
+    - can you RASE a compalint
+    - Please RASE a compalint
+    - RASE a compalint
+    - RASE compalint
+    - could you please RASE a complaiint
+    - can you RASE a complaiint
+    - Please RASE a complaiint
+    - RASE a complaiint
+    - RASE complaiint
+    - could you please RASE a complaiant
+    - can you RASE a complaiant
+    - Please RASE a complaiant
+    - RASE a complaiant
+    - RASE complaiant
+    - could you please RASE a cmplaint
+    - can you RASE a cmplaint
+    - Please RASE a cmplaint
+    - RASE a cmplaint
+    - RASE cmplaint
+    - could you please RASE a complt
+    - can you RASE a complt
+    - Please RASE a complt
+    - RASE a complt
+    - RASE complt
+    - could you please RASE a complnt
+    - can you RASE a complnt
+    - Please RASE a complnt
+    - RASE a complnt
+    - RASE complnt
+    - could you please RASE a complait
+    - can you RASE a complait
+    - Please RASE a complait
+    - RASE a complait
+    - RASE complait
+    - could you please RASE a cmplnt
+    - can you RASE a cmplnt
+    - Please RASE a cmplnt
+    - RASE a cmplnt
+    - RASE cmplnt
+    - could you please RASE a complent
+    - can you RASE a complent
+    - Please RASE a complent
+    - RASE a complent
+    - RASE complent
+    - could you please RASE a cmplait
+    - can you RASE a cmplait
+    - Please RASE a cmplait
+    - RASE a cmplait
+    - RASE cmplait
+    - could you please RASE a cmplint
+    - can you RASE a cmplint
+    - Please RASE a cmplint
+    - RASE a cmplint
+    - RASE cmplint
+    - could you please rasie a complaint
+    - can you rasie a complaint
+    - Please rasie a complaint
+    - rasie a complaint
+    - rasie complaint
+    - could you please rasie a Complaint
+    - can you rasie a Complaint
+    - Please rasie a Complaint
+    - rasie a Complaint
+    - rasie Complaint
+    - could you please rasie a COMPLAINT
+    - can you rasie a COMPLAINT
+    - Please rasie a COMPLAINT
+    - rasie a COMPLAINT
+    - rasie COMPLAINT
+    - could you please rasie a Complaint
+    - can you rasie a Complaint
+    - Please rasie a Complaint
+    - rasie a Complaint
+    - rasie Complaint
+    - could you please rasie a complanit
+    - can you rasie a complanit
+    - Please rasie a complanit
+    - rasie a complanit
+    - rasie complanit
+    - could you please rasie a Complainet
+    - can you rasie a Complainet
+    - Please rasie a Complainet
+    - rasie a Complainet
+    - rasie Complainet
+    - could you please rasie a complient
+    - can you rasie a complient
+    - Please rasie a complient
+    - rasie a complient
+    - rasie complient
+    - could you please rasie a Complent
+    - can you rasie a Complent
+    - Please rasie a Complent
+    - rasie a Complent
+    - rasie Complent
+    - could you please rasie a complainnt
+    - can you rasie a complainnt
+    - Please rasie a complainnt
+    - rasie a complainnt
+    - rasie complainnt
+    - could you please rasie a compaint
+    - can you rasie a compaint
+    - Please rasie a compaint
+    - rasie a compaint
+    - rasie compaint
+    - could you please rasie a compalint
+    - can you rasie a compalint
+    - Please rasie a compalint
+    - rasie a compalint
+    - rasie compalint
+    - could you please rasie a complaiint
+    - can you rasie a complaiint
+    - Please rasie a complaiint
+    - rasie a complaiint
+    - rasie complaiint
+    - could you please rasie a complaiant
+    - can you rasie a complaiant
+    - Please rasie a complaiant
+    - rasie a complaiant
+    - rasie complaiant
+    - could you please rasie a cmplaint
+    - can you rasie a cmplaint
+    - Please rasie a cmplaint
+    - rasie a cmplaint
+    - rasie cmplaint
+    - could you please rasie a complt
+    - can you rasie a complt
+    - Please rasie a complt
+    - rasie a complt
+    - rasie complt
+    - could you please rasie a complnt
+    - can you rasie a complnt
+    - Please rasie a complnt
+    - rasie a complnt
+    - rasie complnt
+    - could you please rasie a complait
+    - can you rasie a complait
+    - Please rasie a complait
+    - rasie a complait
+    - rasie complait
+    - could you please rasie a cmplnt
+    - can you rasie a cmplnt
+    - Please rasie a cmplnt
+    - rasie a cmplnt
+    - rasie cmplnt
+    - could you please rasie a complent
+    - can you rasie a complent
+    - Please rasie a complent
+    - rasie a complent
+    - rasie complent
+    - could you please rasie a cmplait
+    - can you rasie a cmplait
+    - Please rasie a cmplait
+    - rasie a cmplait
+    - rasie cmplait
+    - could you please rasie a cmplint
+    - can you rasie a cmplint
+    - Please rasie a cmplint
+    - rasie a cmplint
+    - rasie cmplint
+    - could you please RASIE a complaint
+    - can you RASIE a complaint
+    - Please RASIE a complaint
+    - RASIE a complaint
+    - RASIE complaint
+    - could you please RASIE a Complaint
+    - can you RASIE a Complaint
+    - Please RASIE a Complaint
+    - RASIE a Complaint
+    - RASIE Complaint
+    - could you please RASIE a COMPLAINT
+    - can you RASIE a COMPLAINT
+    - Please RASIE a COMPLAINT
+    - RASIE a COMPLAINT
+    - RASIE COMPLAINT
+    - could you please RASIE a Complaint
+    - can you RASIE a Complaint
+    - Please RASIE a Complaint
+    - RASIE a Complaint
+    - RASIE Complaint
+    - could you please RASIE a complanit
+    - can you RASIE a complanit
+    - Please RASIE a complanit
+    - RASIE a complanit
+    - RASIE complanit
+    - could you please RASIE a Complainet
+    - can you RASIE a Complainet
+    - Please RASIE a Complainet
+    - RASIE a Complainet
+    - RASIE Complainet
+    - could you please RASIE a complient
+    - can you RASIE a complient
+    - Please RASIE a complient
+    - RASIE a complient
+    - RASIE complient
+    - could you please RASIE a Complent
+    - can you RASIE a Complent
+    - Please RASIE a Complent
+    - RASIE a Complent
+    - RASIE Complent
+    - could you please RASIE a complainnt
+    - can you RASIE a complainnt
+    - Please RASIE a complainnt
+    - RASIE a complainnt
+    - RASIE complainnt
+    - could you please RASIE a compaint
+    - can you RASIE a compaint
+    - Please RASIE a compaint
+    - RASIE a compaint
+    - RASIE compaint
+    - could you please RASIE a compalint
+    - can you RASIE a compalint
+    - Please RASIE a compalint
+    - RASIE a compalint
+    - RASIE compalint
+    - could you please RASIE a complaiint
+    - can you RASIE a complaiint
+    - Please RASIE a complaiint
+    - RASIE a complaiint
+    - RASIE complaiint
+    - could you please RASIE a complaiant
+    - can you RASIE a complaiant
+    - Please RASIE a complaiant
+    - RASIE a complaiant
+    - RASIE complaiant
+    - could you please RASIE a cmplaint
+    - can you RASIE a cmplaint
+    - Please RASIE a cmplaint
+    - RASIE a cmplaint
+    - RASIE cmplaint
+    - could you please RASIE a complt
+    - can you RASIE a complt
+    - Please RASIE a complt
+    - RASIE a complt
+    - RASIE complt
+    - could you please RASIE a complnt
+    - can you RASIE a complnt
+    - Please RASIE a complnt
+    - RASIE a complnt
+    - RASIE complnt
+    - could you please RASIE a complait
+    - can you RASIE a complait
+    - Please RASIE a complait
+    - RASIE a complait
+    - RASIE complait
+    - could you please RASIE a cmplnt
+    - can you RASIE a cmplnt
+    - Please RASIE a cmplnt
+    - RASIE a cmplnt
+    - RASIE cmplnt
+    - could you please RASIE a complent
+    - can you RASIE a complent
+    - Please RASIE a complent
+    - RASIE a complent
+    - RASIE complent
+    - could you please RASIE a cmplait
+    - can you RASIE a cmplait
+    - Please RASIE a cmplait
+    - RASIE a cmplait
+    - RASIE cmplait
+    - could you please RASIE a cmplint
+    - can you RASIE a cmplint
+    - Please RASIE a cmplint
+    - RASIE a cmplint
+    - RASIE cmplint
+    - could you please rise a complaint
+    - can you rise a complaint
+    - Please rise a complaint
+    - rise a complaint
+    - rise complaint
+    - could you please rise a Complaint
+    - can you rise a Complaint
+    - Please rise a Complaint
+    - rise a Complaint
+    - rise Complaint
+    - could you please rise a COMPLAINT
+    - can you rise a COMPLAINT
+    - Please rise a COMPLAINT
+    - rise a COMPLAINT
+    - rise COMPLAINT
+    - could you please rise a Complaint
+    - can you rise a Complaint
+    - Please rise a Complaint
+    - rise a Complaint
+    - rise Complaint
+    - could you please rise a complanit
+    - can you rise a complanit
+    - Please rise a complanit
+    - rise a complanit
+    - rise complanit
+    - could you please rise a Complainet
+    - can you rise a Complainet
+    - Please rise a Complainet
+    - rise a Complainet
+    - rise Complainet
+    - could you please rise a complient
+    - can you rise a complient
+    - Please rise a complient
+    - rise a complient
+    - rise complient
+    - could you please rise a Complent
+    - can you rise a Complent
+    - Please rise a Complent
+    - rise a Complent
+    - rise Complent
+    - could you please rise a complainnt
+    - can you rise a complainnt
+    - Please rise a complainnt
+    - rise a complainnt
+    - rise complainnt
+    - could you please rise a compaint
+    - can you rise a compaint
+    - Please rise a compaint
+    - rise a compaint
+    - rise compaint
+    - could you please rise a compalint
+    - can you rise a compalint
+    - Please rise a compalint
+    - rise a compalint
+    - rise compalint
+    - could you please rise a complaiint
+    - can you rise a complaiint
+    - Please rise a complaiint
+    - rise a complaiint
+    - rise complaiint
+    - could you please rise a complaiant
+    - can you rise a complaiant
+    - Please rise a complaiant
+    - rise a complaiant
+    - rise complaiant
+    - could you please rise a cmplaint
+    - can you rise a cmplaint
+    - Please rise a cmplaint
+    - rise a cmplaint
+    - rise cmplaint
+    - could you please rise a complt
+    - can you rise a complt
+    - Please rise a complt
+    - rise a complt
+    - rise complt
+    - could you please rise a complnt
+    - can you rise a complnt
+    - Please rise a complnt
+    - rise a complnt
+    - rise complnt
+    - could you please rise a complait
+    - can you rise a complait
+    - Please rise a complait
+    - rise a complait
+    - rise complait
+    - could you please rise a cmplnt
+    - can you rise a cmplnt
+    - Please rise a cmplnt
+    - rise a cmplnt
+    - rise cmplnt
+    - could you please rise a complent
+    - can you rise a complent
+    - Please rise a complent
+    - rise a complent
+    - rise complent
+    - could you please rise a cmplait
+    - can you rise a cmplait
+    - Please rise a cmplait
+    - rise a cmplait
+    - rise cmplait
+    - could you please rise a cmplint
+    - can you rise a cmplint
+    - Please rise a cmplint
+    - rise a cmplint
+    - rise cmplint
+    - could you please RISE a complaint
+    - can you RISE a complaint
+    - Please RISE a complaint
+    - RISE a complaint
+    - RISE complaint
+    - could you please RISE a Complaint
+    - can you RISE a Complaint
+    - Please RISE a Complaint
+    - RISE a Complaint
+    - RISE Complaint
+    - could you please RISE a COMPLAINT
+    - can you RISE a COMPLAINT
+    - Please RISE a COMPLAINT
+    - RISE a COMPLAINT
+    - RISE COMPLAINT
+    - could you please RISE a Complaint
+    - can you RISE a Complaint
+    - Please RISE a Complaint
+    - RISE a Complaint
+    - RISE Complaint
+    - could you please RISE a complanit
+    - can you RISE a complanit
+    - Please RISE a complanit
+    - RISE a complanit
+    - RISE complanit
+    - could you please RISE a Complainet
+    - can you RISE a Complainet
+    - Please RISE a Complainet
+    - RISE a Complainet
+    - RISE Complainet
+    - could you please RISE a complient
+    - can you RISE a complient
+    - Please RISE a complient
+    - RISE a complient
+    - RISE complient
+    - could you please RISE a Complent
+    - can you RISE a Complent
+    - Please RISE a Complent
+    - RISE a Complent
+    - RISE Complent
+    - could you please RISE a complainnt
+    - can you RISE a complainnt
+    - Please RISE a complainnt
+    - RISE a complainnt
+    - RISE complainnt
+    - could you please RISE a compaint
+    - can you RISE a compaint
+    - Please RISE a compaint
+    - RISE a compaint
+    - RISE compaint
+    - could you please RISE a compalint
+    - can you RISE a compalint
+    - Please RISE a compalint
+    - RISE a compalint
+    - RISE compalint
+    - could you please RISE a complaiint
+    - can you RISE a complaiint
+    - Please RISE a complaiint
+    - RISE a complaiint
+    - RISE complaiint
+    - could you please RISE a complaiant
+    - can you RISE a complaiant
+    - Please RISE a complaiant
+    - RISE a complaiant
+    - RISE complaiant
+    - could you please RISE a cmplaint
+    - can you RISE a cmplaint
+    - Please RISE a cmplaint
+    - RISE a cmplaint
+    - RISE cmplaint
+    - could you please RISE a complt
+    - can you RISE a complt
+    - Please RISE a complt
+    - RISE a complt
+    - RISE complt
+    - could you please RISE a complnt
+    - can you RISE a complnt
+    - Please RISE a complnt
+    - RISE a complnt
+    - RISE complnt
+    - could you please RISE a complait
+    - can you RISE a complait
+    - Please RISE a complait
+    - RISE a complait
+    - RISE complait
+    - could you please RISE a cmplnt
+    - can you RISE a cmplnt
+    - Please RISE a cmplnt
+    - RISE a cmplnt
+    - RISE cmplnt
+    - could you please RISE a complent
+    - can you RISE a complent
+    - Please RISE a complent
+    - RISE a complent
+    - RISE complent
+    - could you please RISE a cmplait
+    - can you RISE a cmplait
+    - Please RISE a cmplait
+    - RISE a cmplait
+    - RISE cmplait
+    - could you please RISE a cmplint
+    - can you RISE a cmplint
+    - Please RISE a cmplint
+    - RISE a cmplint
+    - RISE cmplint
 
 - intent: track_complaint
   examples: |
@@ -498,6 +1838,741 @@ nlu:
     - track a Complaint
     - track a Complaint
     - track a Complaint
+    - could you please track a complaint
+    - can you track a complaint
+    - Please track a complaint
+    - track a complaint
+    - track complaint
+    - could you please track a Complaint
+    - can you track a Complaint
+    - Please track a Complaint
+    - track a Complaint
+    - track Complaint
+    - could you please track a COMPLAINT
+    - can you track a COMPLAINT
+    - Please track a COMPLAINT
+    - track a COMPLAINT
+    - track COMPLAINT
+    - could you please track a Complaint
+    - can you track a Complaint
+    - Please track a Complaint
+    - track a Complaint
+    - track Complaint
+    - could you please track a complanit
+    - can you track a complanit
+    - Please track a complanit
+    - track a complanit
+    - track complanit
+    - could you please track a Complainet
+    - can you track a Complainet
+    - Please track a Complainet
+    - track a Complainet
+    - track Complainet
+    - could you please track a complient
+    - can you track a complient
+    - Please track a complient
+    - track a complient
+    - track complient
+    - could you please track a Complent
+    - can you track a Complent
+    - Please track a Complent
+    - track a Complent
+    - track Complent
+    - could you please track a complainnt
+    - can you track a complainnt
+    - Please track a complainnt
+    - track a complainnt
+    - track complainnt
+    - could you please track a compaint
+    - can you track a compaint
+    - Please track a compaint
+    - track a compaint
+    - track compaint
+    - could you please track a compalint
+    - can you track a compalint
+    - Please track a compalint
+    - track a compalint
+    - track compalint
+    - could you please track a complaiint
+    - can you track a complaiint
+    - Please track a complaiint
+    - track a complaiint
+    - track complaiint
+    - could you please track a complaiant
+    - can you track a complaiant
+    - Please track a complaiant
+    - track a complaiant
+    - track complaiant
+    - could you please track a cmplaint
+    - can you track a cmplaint
+    - Please track a cmplaint
+    - track a cmplaint
+    - track cmplaint
+    - could you please track a complt
+    - can you track a complt
+    - Please track a complt
+    - track a complt
+    - track complt
+    - could you please track a complnt
+    - can you track a complnt
+    - Please track a complnt
+    - track a complnt
+    - track complnt
+    - could you please track a complait
+    - can you track a complait
+    - Please track a complait
+    - track a complait
+    - track complait
+    - could you please track a cmplnt
+    - can you track a cmplnt
+    - Please track a cmplnt
+    - track a cmplnt
+    - track cmplnt
+    - could you please track a complent
+    - can you track a complent
+    - Please track a complent
+    - track a complent
+    - track complent
+    - could you please track a cmplait
+    - can you track a cmplait
+    - Please track a cmplait
+    - track a cmplait
+    - track cmplait
+    - could you please track a cmplint
+    - can you track a cmplint
+    - Please track a cmplint
+    - track a cmplint
+    - track cmplint
+    - could you please Track a complaint
+    - can you Track a complaint
+    - Please Track a complaint
+    - Track a complaint
+    - Track complaint
+    - could you please Track a Complaint
+    - can you Track a Complaint
+    - Please Track a Complaint
+    - Track a Complaint
+    - Track Complaint
+    - could you please Track a COMPLAINT
+    - can you Track a COMPLAINT
+    - Please Track a COMPLAINT
+    - Track a COMPLAINT
+    - Track COMPLAINT
+    - could you please Track a Complaint
+    - can you Track a Complaint
+    - Please Track a Complaint
+    - Track a Complaint
+    - Track Complaint
+    - could you please Track a complanit
+    - can you Track a complanit
+    - Please Track a complanit
+    - Track a complanit
+    - Track complanit
+    - could you please Track a Complainet
+    - can you Track a Complainet
+    - Please Track a Complainet
+    - Track a Complainet
+    - Track Complainet
+    - could you please Track a complient
+    - can you Track a complient
+    - Please Track a complient
+    - Track a complient
+    - Track complient
+    - could you please Track a Complent
+    - can you Track a Complent
+    - Please Track a Complent
+    - Track a Complent
+    - Track Complent
+    - could you please Track a complainnt
+    - can you Track a complainnt
+    - Please Track a complainnt
+    - Track a complainnt
+    - Track complainnt
+    - could you please Track a compaint
+    - can you Track a compaint
+    - Please Track a compaint
+    - Track a compaint
+    - Track compaint
+    - could you please Track a compalint
+    - can you Track a compalint
+    - Please Track a compalint
+    - Track a compalint
+    - Track compalint
+    - could you please Track a complaiint
+    - can you Track a complaiint
+    - Please Track a complaiint
+    - Track a complaiint
+    - Track complaiint
+    - could you please Track a complaiant
+    - can you Track a complaiant
+    - Please Track a complaiant
+    - Track a complaiant
+    - Track complaiant
+    - could you please Track a cmplaint
+    - can you Track a cmplaint
+    - Please Track a cmplaint
+    - Track a cmplaint
+    - Track cmplaint
+    - could you please Track a complt
+    - can you Track a complt
+    - Please Track a complt
+    - Track a complt
+    - Track complt
+    - could you please Track a complnt
+    - can you Track a complnt
+    - Please Track a complnt
+    - Track a complnt
+    - Track complnt
+    - could you please Track a complait
+    - can you Track a complait
+    - Please Track a complait
+    - Track a complait
+    - Track complait
+    - could you please Track a cmplnt
+    - can you Track a cmplnt
+    - Please Track a cmplnt
+    - Track a cmplnt
+    - Track cmplnt
+    - could you please Track a complent
+    - can you Track a complent
+    - Please Track a complent
+    - Track a complent
+    - Track complent
+    - could you please Track a cmplait
+    - can you Track a cmplait
+    - Please Track a cmplait
+    - Track a cmplait
+    - Track cmplait
+    - could you please Track a cmplint
+    - can you Track a cmplint
+    - Please Track a cmplint
+    - Track a cmplint
+    - Track cmplint
+    - could you please TRACK a complaint
+    - can you TRACK a complaint
+    - Please TRACK a complaint
+    - TRACK a complaint
+    - TRACK complaint
+    - could you please TRACK a Complaint
+    - can you TRACK a Complaint
+    - Please TRACK a Complaint
+    - TRACK a Complaint
+    - TRACK Complaint
+    - could you please TRACK a COMPLAINT
+    - can you TRACK a COMPLAINT
+    - Please TRACK a COMPLAINT
+    - TRACK a COMPLAINT
+    - TRACK COMPLAINT
+    - could you please TRACK a Complaint
+    - can you TRACK a Complaint
+    - Please TRACK a Complaint
+    - TRACK a Complaint
+    - TRACK Complaint
+    - could you please TRACK a complanit
+    - can you TRACK a complanit
+    - Please TRACK a complanit
+    - TRACK a complanit
+    - TRACK complanit
+    - could you please TRACK a Complainet
+    - can you TRACK a Complainet
+    - Please TRACK a Complainet
+    - TRACK a Complainet
+    - TRACK Complainet
+    - could you please TRACK a complient
+    - can you TRACK a complient
+    - Please TRACK a complient
+    - TRACK a complient
+    - TRACK complient
+    - could you please TRACK a Complent
+    - can you TRACK a Complent
+    - Please TRACK a Complent
+    - TRACK a Complent
+    - TRACK Complent
+    - could you please TRACK a complainnt
+    - can you TRACK a complainnt
+    - Please TRACK a complainnt
+    - TRACK a complainnt
+    - TRACK complainnt
+    - could you please TRACK a compaint
+    - can you TRACK a compaint
+    - Please TRACK a compaint
+    - TRACK a compaint
+    - TRACK compaint
+    - could you please TRACK a compalint
+    - can you TRACK a compalint
+    - Please TRACK a compalint
+    - TRACK a compalint
+    - TRACK compalint
+    - could you please TRACK a complaiint
+    - can you TRACK a complaiint
+    - Please TRACK a complaiint
+    - TRACK a complaiint
+    - TRACK complaiint
+    - could you please TRACK a complaiant
+    - can you TRACK a complaiant
+    - Please TRACK a complaiant
+    - TRACK a complaiant
+    - TRACK complaiant
+    - could you please TRACK a cmplaint
+    - can you TRACK a cmplaint
+    - Please TRACK a cmplaint
+    - TRACK a cmplaint
+    - TRACK cmplaint
+    - could you please TRACK a complt
+    - can you TRACK a complt
+    - Please TRACK a complt
+    - TRACK a complt
+    - TRACK complt
+    - could you please TRACK a complnt
+    - can you TRACK a complnt
+    - Please TRACK a complnt
+    - TRACK a complnt
+    - TRACK complnt
+    - could you please TRACK a complait
+    - can you TRACK a complait
+    - Please TRACK a complait
+    - TRACK a complait
+    - TRACK complait
+    - could you please TRACK a cmplnt
+    - can you TRACK a cmplnt
+    - Please TRACK a cmplnt
+    - TRACK a cmplnt
+    - TRACK cmplnt
+    - could you please TRACK a complent
+    - can you TRACK a complent
+    - Please TRACK a complent
+    - TRACK a complent
+    - TRACK complent
+    - could you please TRACK a cmplait
+    - can you TRACK a cmplait
+    - Please TRACK a cmplait
+    - TRACK a cmplait
+    - TRACK cmplait
+    - could you please TRACK a cmplint
+    - can you TRACK a cmplint
+    - Please TRACK a cmplint
+    - TRACK a cmplint
+    - TRACK cmplint
+    - could you please trck a complaint
+    - can you trck a complaint
+    - Please trck a complaint
+    - trck a complaint
+    - trck complaint
+    - could you please trck a Complaint
+    - can you trck a Complaint
+    - Please trck a Complaint
+    - trck a Complaint
+    - trck Complaint
+    - could you please trck a COMPLAINT
+    - can you trck a COMPLAINT
+    - Please trck a COMPLAINT
+    - trck a COMPLAINT
+    - trck COMPLAINT
+    - could you please trck a Complaint
+    - can you trck a Complaint
+    - Please trck a Complaint
+    - trck a Complaint
+    - trck Complaint
+    - could you please trck a complanit
+    - can you trck a complanit
+    - Please trck a complanit
+    - trck a complanit
+    - trck complanit
+    - could you please trck a Complainet
+    - can you trck a Complainet
+    - Please trck a Complainet
+    - trck a Complainet
+    - trck Complainet
+    - could you please trck a complient
+    - can you trck a complient
+    - Please trck a complient
+    - trck a complient
+    - trck complient
+    - could you please trck a Complent
+    - can you trck a Complent
+    - Please trck a Complent
+    - trck a Complent
+    - trck Complent
+    - could you please trck a complainnt
+    - can you trck a complainnt
+    - Please trck a complainnt
+    - trck a complainnt
+    - trck complainnt
+    - could you please trck a compaint
+    - can you trck a compaint
+    - Please trck a compaint
+    - trck a compaint
+    - trck compaint
+    - could you please trck a compalint
+    - can you trck a compalint
+    - Please trck a compalint
+    - trck a compalint
+    - trck compalint
+    - could you please trck a complaiint
+    - can you trck a complaiint
+    - Please trck a complaiint
+    - trck a complaiint
+    - trck complaiint
+    - could you please trck a complaiant
+    - can you trck a complaiant
+    - Please trck a complaiant
+    - trck a complaiant
+    - trck complaiant
+    - could you please trck a cmplaint
+    - can you trck a cmplaint
+    - Please trck a cmplaint
+    - trck a cmplaint
+    - trck cmplaint
+    - could you please trck a complt
+    - can you trck a complt
+    - Please trck a complt
+    - trck a complt
+    - trck complt
+    - could you please trck a complnt
+    - can you trck a complnt
+    - Please trck a complnt
+    - trck a complnt
+    - trck complnt
+    - could you please trck a complait
+    - can you trck a complait
+    - Please trck a complait
+    - trck a complait
+    - trck complait
+    - could you please trck a cmplnt
+    - can you trck a cmplnt
+    - Please trck a cmplnt
+    - trck a cmplnt
+    - trck cmplnt
+    - could you please trck a complent
+    - can you trck a complent
+    - Please trck a complent
+    - trck a complent
+    - trck complent
+    - could you please trck a cmplait
+    - can you trck a cmplait
+    - Please trck a cmplait
+    - trck a cmplait
+    - trck cmplait
+    - could you please trck a cmplint
+    - can you trck a cmplint
+    - Please trck a cmplint
+    - trck a cmplint
+    - trck cmplint
+    - could you please Trck a complaint
+    - can you Trck a complaint
+    - Please Trck a complaint
+    - Trck a complaint
+    - Trck complaint
+    - could you please Trck a Complaint
+    - can you Trck a Complaint
+    - Please Trck a Complaint
+    - Trck a Complaint
+    - Trck Complaint
+    - could you please Trck a COMPLAINT
+    - can you Trck a COMPLAINT
+    - Please Trck a COMPLAINT
+    - Trck a COMPLAINT
+    - Trck COMPLAINT
+    - could you please Trck a Complaint
+    - can you Trck a Complaint
+    - Please Trck a Complaint
+    - Trck a Complaint
+    - Trck Complaint
+    - could you please Trck a complanit
+    - can you Trck a complanit
+    - Please Trck a complanit
+    - Trck a complanit
+    - Trck complanit
+    - could you please Trck a Complainet
+    - can you Trck a Complainet
+    - Please Trck a Complainet
+    - Trck a Complainet
+    - Trck Complainet
+    - could you please Trck a complient
+    - can you Trck a complient
+    - Please Trck a complient
+    - Trck a complient
+    - Trck complient
+    - could you please Trck a Complent
+    - can you Trck a Complent
+    - Please Trck a Complent
+    - Trck a Complent
+    - Trck Complent
+    - could you please Trck a complainnt
+    - can you Trck a complainnt
+    - Please Trck a complainnt
+    - Trck a complainnt
+    - Trck complainnt
+    - could you please Trck a compaint
+    - can you Trck a compaint
+    - Please Trck a compaint
+    - Trck a compaint
+    - Trck compaint
+    - could you please Trck a compalint
+    - can you Trck a compalint
+    - Please Trck a compalint
+    - Trck a compalint
+    - Trck compalint
+    - could you please Trck a complaiint
+    - can you Trck a complaiint
+    - Please Trck a complaiint
+    - Trck a complaiint
+    - Trck complaiint
+    - could you please Trck a complaiant
+    - can you Trck a complaiant
+    - Please Trck a complaiant
+    - Trck a complaiant
+    - Trck complaiant
+    - could you please Trck a cmplaint
+    - can you Trck a cmplaint
+    - Please Trck a cmplaint
+    - Trck a cmplaint
+    - Trck cmplaint
+    - could you please Trck a complt
+    - can you Trck a complt
+    - Please Trck a complt
+    - Trck a complt
+    - Trck complt
+    - could you please Trck a complnt
+    - can you Trck a complnt
+    - Please Trck a complnt
+    - Trck a complnt
+    - Trck complnt
+    - could you please Trck a complait
+    - can you Trck a complait
+    - Please Trck a complait
+    - Trck a complait
+    - Trck complait
+    - could you please Trck a cmplnt
+    - can you Trck a cmplnt
+    - Please Trck a cmplnt
+    - Trck a cmplnt
+    - Trck cmplnt
+    - could you please Trck a complent
+    - can you Trck a complent
+    - Please Trck a complent
+    - Trck a complent
+    - Trck complent
+    - could you please Trck a cmplait
+    - can you Trck a cmplait
+    - Please Trck a cmplait
+    - Trck a cmplait
+    - Trck cmplait
+    - could you please Trck a cmplint
+    - can you Trck a cmplint
+    - Please Trck a cmplint
+    - Trck a cmplint
+    - Trck cmplint
+    - could you please Trak a complaint
+    - can you Trak a complaint
+    - Please Trak a complaint
+    - Trak a complaint
+    - Trak complaint
+    - could you please Trak a Complaint
+    - can you Trak a Complaint
+    - Please Trak a Complaint
+    - Trak a Complaint
+    - Trak Complaint
+    - could you please Trak a COMPLAINT
+    - can you Trak a COMPLAINT
+    - Please Trak a COMPLAINT
+    - Trak a COMPLAINT
+    - Trak COMPLAINT
+    - could you please Trak a Complaint
+    - can you Trak a Complaint
+    - Please Trak a Complaint
+    - Trak a Complaint
+    - Trak Complaint
+    - could you please Trak a complanit
+    - can you Trak a complanit
+    - Please Trak a complanit
+    - Trak a complanit
+    - Trak complanit
+    - could you please Trak a Complainet
+    - can you Trak a Complainet
+    - Please Trak a Complainet
+    - Trak a Complainet
+    - Trak Complainet
+    - could you please Trak a complient
+    - can you Trak a complient
+    - Please Trak a complient
+    - Trak a complient
+    - Trak complient
+    - could you please Trak a Complent
+    - can you Trak a Complent
+    - Please Trak a Complent
+    - Trak a Complent
+    - Trak Complent
+    - could you please Trak a complainnt
+    - can you Trak a complainnt
+    - Please Trak a complainnt
+    - Trak a complainnt
+    - Trak complainnt
+    - could you please Trak a compaint
+    - can you Trak a compaint
+    - Please Trak a compaint
+    - Trak a compaint
+    - Trak compaint
+    - could you please Trak a compalint
+    - can you Trak a compalint
+    - Please Trak a compalint
+    - Trak a compalint
+    - Trak compalint
+    - could you please Trak a complaiint
+    - can you Trak a complaiint
+    - Please Trak a complaiint
+    - Trak a complaiint
+    - Trak complaiint
+    - could you please Trak a complaiant
+    - can you Trak a complaiant
+    - Please Trak a complaiant
+    - Trak a complaiant
+    - Trak complaiant
+    - could you please Trak a cmplaint
+    - can you Trak a cmplaint
+    - Please Trak a cmplaint
+    - Trak a cmplaint
+    - Trak cmplaint
+    - could you please Trak a complt
+    - can you Trak a complt
+    - Please Trak a complt
+    - Trak a complt
+    - Trak complt
+    - could you please Trak a complnt
+    - can you Trak a complnt
+    - Please Trak a complnt
+    - Trak a complnt
+    - Trak complnt
+    - could you please Trak a complait
+    - can you Trak a complait
+    - Please Trak a complait
+    - Trak a complait
+    - Trak complait
+    - could you please Trak a cmplnt
+    - can you Trak a cmplnt
+    - Please Trak a cmplnt
+    - Trak a cmplnt
+    - Trak cmplnt
+    - could you please Trak a complent
+    - can you Trak a complent
+    - Please Trak a complent
+    - Trak a complent
+    - Trak complent
+    - could you please Trak a cmplait
+    - can you Trak a cmplait
+    - Please Trak a cmplait
+    - Trak a cmplait
+    - Trak cmplait
+    - could you please Trak a cmplint
+    - can you Trak a cmplint
+    - Please Trak a cmplint
+    - Trak a cmplint
+    - Trak cmplint
+    - could you please trak a complaint
+    - can you trak a complaint
+    - Please trak a complaint
+    - trak a complaint
+    - trak complaint
+    - could you please trak a Complaint
+    - can you trak a Complaint
+    - Please trak a Complaint
+    - trak a Complaint
+    - trak Complaint
+    - could you please trak a COMPLAINT
+    - can you trak a COMPLAINT
+    - Please trak a COMPLAINT
+    - trak a COMPLAINT
+    - trak COMPLAINT
+    - could you please trak a Complaint
+    - can you trak a Complaint
+    - Please trak a Complaint
+    - trak a Complaint
+    - trak Complaint
+    - could you please trak a complanit
+    - can you trak a complanit
+    - Please trak a complanit
+    - trak a complanit
+    - trak complanit
+    - could you please trak a Complainet
+    - can you trak a Complainet
+    - Please trak a Complainet
+    - trak a Complainet
+    - trak Complainet
+    - could you please trak a complient
+    - can you trak a complient
+    - Please trak a complient
+    - trak a complient
+    - trak complient
+    - could you please trak a Complent
+    - can you trak a Complent
+    - Please trak a Complent
+    - trak a Complent
+    - trak Complent
+    - could you please trak a complainnt
+    - can you trak a complainnt
+    - Please trak a complainnt
+    - trak a complainnt
+    - trak complainnt
+    - could you please trak a compaint
+    - can you trak a compaint
+    - Please trak a compaint
+    - trak a compaint
+    - trak compaint
+    - could you please trak a compalint
+    - can you trak a compalint
+    - Please trak a compalint
+    - trak a compalint
+    - trak compalint
+    - could you please trak a complaiint
+    - can you trak a complaiint
+    - Please trak a complaiint
+    - trak a complaiint
+    - trak complaiint
+    - could you please trak a complaiant
+    - can you trak a complaiant
+    - Please trak a complaiant
+    - trak a complaiant
+    - trak complaiant
+    - could you please trak a cmplaint
+    - can you trak a cmplaint
+    - Please trak a cmplaint
+    - trak a cmplaint
+    - trak cmplaint
+    - could you please trak a complt
+    - can you trak a complt
+    - Please trak a complt
+    - trak a complt
+    - trak complt
+    - could you please trak a complnt
+    - can you trak a complnt
+    - Please trak a complnt
+    - trak a complnt
+    - trak complnt
+    - could you please trak a complait
+    - can you trak a complait
+    - Please trak a complait
+    - trak a complait
+    - trak complait
+    - could you please trak a cmplnt
+    - can you trak a cmplnt
+    - Please trak a cmplnt
+    - trak a cmplnt
+    - trak cmplnt
+    - could you please trak a complent
+    - can you trak a complent
+    - Please trak a complent
+    - trak a complent
+    - trak complent
+    - could you please trak a cmplait
+    - can you trak a cmplait
+    - Please trak a cmplait
+    - trak a cmplait
+    - trak cmplait
+    - could you please trak a cmplint
+    - can you trak a cmplint
+    - Please trak a cmplint
+    - trak a cmplint
+    - trak cmplint
 
 - intent:  suggestion
   examples: |
@@ -613,6 +2688,1266 @@ nlu:
     - Suggestion
     - Suggestion
     - Suggestion
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a suggestion
+    - I have a suggestion
+    - Show me a form for suggestion
+    - suggestion
+    - suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a Suggestion
+    - I have a Suggestion
+    - Show me a form for Suggestion
+    - Suggestion
+    - Suggestion form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a SUGGESTION
+    - I have a SUGGESTION
+    - Show me a form for SUGGESTION
+    - SUGGESTION
+    - SUGGESTION form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a suggest
+    - I have a suggest
+    - Show me a form for suggest
+    - suggest
+    - suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a Suggest
+    - I have a Suggest
+    - Show me a form for Suggest
+    - Suggest
+    - Suggest form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a SUGGEST
+    - I have a SUGGEST
+    - Show me a form for SUGGEST
+    - SUGGEST
+    - SUGGEST form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a suggestions
+    - I have a suggestions
+    - Show me a form for suggestions
+    - suggestions
+    - suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a Suggestions
+    - I have a Suggestions
+    - Show me a form for Suggestions
+    - Suggestions
+    - Suggestions form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a SUGGESTIONS
+    - I have a SUGGESTIONS
+    - Show me a form for SUGGESTIONS
+    - SUGGESTIONS
+    - SUGGESTIONS form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sugg
+    - I have a sugg
+    - Show me a form for sugg
+    - sugg
+    - sugg form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgst
+    - I have a sgst
+    - Show me a form for sgst
+    - sgst
+    - sgst form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
+    - I want to give a sgstion
+    - I have a sgstion
+    - Show me a form for sgstion
+    - sgstion
+    - sgstion form
 
 
 - intent: apply_services
@@ -722,6 +4057,102 @@ nlu:
     - Apply for service
     - Apply for service
     - Apply for service
+    - aply for servise
+    - aply a servise
+    - servise
+    - aply for a servise
+    - aply for Srvce
+    - aply a Srvce
+    - Srvce
+    - aply for a Srvce
+    - aply for service
+    - aply a service
+    - service
+    - aply for a service
+    - aply for services
+    - aply a services
+    - services
+    - aply for a services
+    - aply for srvce
+    - aply a srvce
+    - srvce
+    - aply for a srvce
+    - aply for Service
+    - aply a Service
+    - Service
+    - aply for a Service
+    - Apply for servise
+    - Apply a servise
+    - servise
+    - Apply for a servise
+    - Apply for Srvce
+    - Apply a Srvce
+    - Srvce
+    - Apply for a Srvce
+    - Apply for service
+    - Apply a service
+    - service
+    - Apply for a service
+    - Apply for services
+    - Apply a services
+    - services
+    - Apply for a services
+    - Apply for srvce
+    - Apply a srvce
+    - srvce
+    - Apply for a srvce
+    - Apply for Service
+    - Apply a Service
+    - Service
+    - Apply for a Service
+    - apply for servise
+    - apply a servise
+    - servise
+    - apply for a servise
+    - apply for Srvce
+    - apply a Srvce
+    - Srvce
+    - apply for a Srvce
+    - apply for service
+    - apply a service
+    - service
+    - apply for a service
+    - apply for services
+    - apply a services
+    - services
+    - apply for a services
+    - apply for srvce
+    - apply a srvce
+    - srvce
+    - apply for a srvce
+    - apply for Service
+    - apply a Service
+    - Service
+    - apply for a Service
+    - Aply for servise
+    - Aply a servise
+    - servise
+    - Aply for a servise
+    - Aply for Srvce
+    - Aply a Srvce
+    - Srvce
+    - Aply for a Srvce
+    - Aply for service
+    - Aply a service
+    - service
+    - Aply for a service
+    - Aply for services
+    - Aply a services
+    - services
+    - Aply for a services
+    - Aply for srvce
+    - Aply a srvce
+    - srvce
+    - Aply for a srvce
+    - Aply for Service
+    - Aply a Service
+    - Service
+    - Aply for a Service
 
 - intent: complaint_raise
   examples: |
