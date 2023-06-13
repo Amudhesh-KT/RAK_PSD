@@ -1,7 +1,22 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+# - intent: greet
+#   examples: |
+#     - hey
+#     - hello
+#     - hi
+#     - hello there
+#     - good morning
+#     - good evening
+#     - moin
+#     - hey there
+#     - let's go
+#     - hey dude
+#     - goodmorning
+#     - goodevening
+#     - good afternoon
+- intent: language_english
   examples: |
     - hey
     - hello
@@ -16,8 +31,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-- intent: language_english
-  examples: |
     - english
     - english
     - english
