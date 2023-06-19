@@ -62,10 +62,13 @@ def login(user: UserLogin):
     username = db_user.get("username")
     email = db_user.get("email")
     location = db_user.get("location")
+    role = db_user.get("role")
     response = {
         "username": username,
         "email": email,
-        "location": location
+        "location": location,
+        "userType": role
+
     }
     return {"message": "Login successful", "user": response}
 
