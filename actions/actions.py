@@ -20,6 +20,7 @@ client = MongoClient('mongodb+srv://damudheshkt:Amudhesh_rasa@cluster0.upd64s4.m
 db = client['RAK_PSD']
 complaint_collection = db['complaints']
 suggestion_collection = db['suggestions']
+user_collection = db['Users']
 
 class ActionSendOptions(Action):
 
@@ -338,6 +339,38 @@ class ActionSubmitSuggestion(Action):
                     "msg":"Thankyou for your suggestions",
                     "isActionEnded": "completed"
                 }
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+
+        # dispatcher.utter_message(text="Thankyou for your suggestions")
+        
+
+        return []
+    
+
+class ActionAdminCards(Action):
+
+    def name(self) -> Text:
+        return "action_admin_details"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        complaint_completed_count = complaint_collection.count_documents({"complaint_status":"completed"})
+        complaint_pending_count = complaint_collection.count_documents({"complaint_status":"pending"})
+        users_count = user_collection.count_documents({"role":"user"})
+        complaint_count = complaint_collection.count_documents({})
+        suggestion_count = suggestion_collection.count_documents({})
+
+        resp =  {
+                    "complaintRaised":complaint_count,
+                    "complaintCompleted":complaint_completed_count,
+                    "complaintPending":complaint_pending_count,
+                    "registrationCount":users_count,
+                    "complaintSuggestion":suggestion_count
+                }
+        
         response_json = json.dumps(resp)
         dispatcher.utter_message(text=response_json)
         print(resp)

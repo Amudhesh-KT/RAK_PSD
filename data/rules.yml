@@ -57,3 +57,8 @@ rules:
   steps:
   - intent: suggestion_raised
   - action: action_submit_suggestion
+
+- rule: Admin details
+  steps:
+  - intent: admin_details
+  - action: action_admin_details
