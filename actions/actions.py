@@ -504,7 +504,7 @@ class ActionPendingComplaints(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        pending_complaint = complaint_collection.find()
+        pending_complaint = complaint_collection.find({'complaint_status':'pending'})
         pending_complaint_list= []
         for doc in pending_complaint:
             pending_complaint_list.append(doc['complaint_id'])
@@ -528,7 +528,7 @@ class ActionCompletedComplaints(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        completed_complaint = complaint_collection.find()
+        completed_complaint = complaint_collection.find({'complaint_status':'completed'})
         completed_complaint_list= []
         for doc in completed_complaint:
             completed_complaint_list.append(doc['complaint_id'])
