@@ -18,6 +18,10 @@ intents:
   - admin_details
   - suggestion_raised
   - user_list
+  - complaint_list
+  - complaint_details_list
+  - suggestion_list
+
 #****************************************RAISE_COMPLAINT****************************************************
   - raise_complaint
 #****************************************RAISE_COMPLAINT****************************************************
@@ -77,7 +81,9 @@ actions:
 - action_submit_suggestion
 - action_admin_details
 - action_user_list
-
+- action_suggestion_list
+- action_complaint_details_list
+- action_complaint_list
 
 session_config:
   session_expiration_time: 60
