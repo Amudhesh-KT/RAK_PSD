@@ -435,8 +435,9 @@ class ActionComplaintslist(Action):
         
 
         return []
-    
-class ActionComplaintDetails:
+
+
+class ActionComplaintsDetails(Action):
 
     def name(self) -> Text:
         return "action_complaint_details_list"
@@ -447,8 +448,8 @@ class ActionComplaintDetails:
         metadata = tracker.latest_message.get("metadata")
         form = metadata.get("track_form",{})
         print(form)
-        # id = form.get("complaint_id")
-        id = 'RAK1012'
+        id = form.get("complaint_id")
+        # id = 'RAK1012'
         print(id)
         complaint = complaint_collection.find_one({"complaint_id": id})
         if complaint:
@@ -465,9 +466,13 @@ class ActionComplaintDetails:
         dispatcher.utter_message(text=response_json)
         print(resp)
 
+        # dispatcher.utter_message(text="Thankyou for your suggestions")
+        
+
         return []
-    
-class ActionSuggestionList:
+
+
+class ActionSuggestionDetails(Action):
 
     def name(self) -> Text:
         return "action_suggestion_details_list"
@@ -476,15 +481,18 @@ class ActionSuggestionList:
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         suggestion = suggestion_collection.find({},{'username':1,'_id':0,'suggestion_details':1})
-        suggestion_list = []
+        suggestions_list = []
         for i in suggestion:
-            suggestion_list.append(i)
+            suggestions_list.append(i)
 
         # print (suggestion_list)
         resp = {
-            "suggestions":suggestion_list
+            "suggestions":suggestions_list
         }
         response_json = json.dumps(resp)
         dispatcher.utter_message(text=response_json)
         print(resp)
+        
+
         return []
+    
