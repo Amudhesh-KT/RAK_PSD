@@ -389,7 +389,7 @@ class ActionUserslist(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        user = user_collection.find()
+        user = user_collection.find({'role':'user'})
         user_list = []
         for doc in user:
             user_list.append(doc['username'])
