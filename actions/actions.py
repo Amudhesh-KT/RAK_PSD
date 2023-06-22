@@ -447,7 +447,8 @@ class ActionComplaintDetails:
         metadata = tracker.latest_message.get("metadata")
         form = metadata.get("track_form",{})
         print(form)
-        id = form.get("complaint_id")
+        # id = form.get("complaint_id")
+        id = 'RAK1012'
         print(id)
         complaint = complaint_collection.find_one({"complaint_id": id})
         if complaint:
@@ -469,7 +470,7 @@ class ActionComplaintDetails:
 class ActionSuggestionList:
 
     def name(self) -> Text:
-        return "action_suggestion_list"
+        return "action_suggestion_details_list"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,

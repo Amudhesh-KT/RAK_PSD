@@ -81,7 +81,7 @@ actions:
 - action_submit_suggestion
 - action_admin_details
 - action_user_list
-- action_suggestion_list
+- action_suggestion_details_list
 - action_complaint_details_list
 - action_complaint_list
 
