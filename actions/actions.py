@@ -379,3 +379,111 @@ class ActionAdminCards(Action):
         
 
         return []
+    
+
+class ActionUserslist(Action):
+
+    def name(self) -> Text:
+        return "action_user_list"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user = user_collection.find()
+        user_list = []
+        for doc in user:
+            user_list.append(doc['username'])
+    
+        # print(user_list)
+
+        resp =  {
+                    "userName" : user_list
+                }
+        
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+
+        # dispatcher.utter_message(text="Thankyou for your suggestions")
+        
+
+        return []
+    
+
+class ActionComplaintslist(Action):
+
+    def name(self) -> Text:
+        return "action_complaint_list"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        complaint = complaint_collection.find()
+        complaint_list= []
+        for doc in complaint:
+            complaint_list.append(doc['complaint_id'])
+
+        resp =  {
+                    "userName" : complaint_list
+                }
+        
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+
+        # dispatcher.utter_message(text="Thankyou for your suggestions")
+        
+
+        return []
+    
+class ActionComplaintDetails:
+
+    def name(self) -> Text:
+        return "action_complaint_details_list"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        metadata = tracker.latest_message.get("metadata")
+        form = metadata.get("track_form",{})
+        print(form)
+        id = form.get("complaint_id")
+        print(id)
+        complaint = complaint_collection.find_one({"complaint_id": id})
+        if complaint:
+            complaint_user = complaint.get("username")
+            complaint_detail = complaint.get("complaint_details")
+            complaint_status = complaint.get("complaint_status")
+
+        resp = {
+            "username":complaint_user,
+            "complaint detail":complaint_detail,
+            "complaint status":complaint_status
+        }
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+
+        return []
+    
+class ActionSuggestionList:
+
+    def name (self) -> Text:
+        return "action_suggestion_list"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        suggestion = suggestion_collection.find({},{'username':1,'_id':0,'suggestion_details':1})
+        suggestion_list = []
+        for i in suggestion:
+            suggestion_list.append(i)
+
+        # print (suggestion_list)
+        resp = {
+            "suggestions":suggestion_list
+        }
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+        return []

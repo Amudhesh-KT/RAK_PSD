@@ -62,3 +62,24 @@ rules:
   steps:
   - intent: admin_details
   - action: action_admin_details
+
+- rule: Get list of all users
+  steps:
+  - intent: user_list
+  - action: action_user_list
+
+- rule: Get list of all complaints
+  steps:
+  - intent: complaint_list
+  - action: action_complaint_list
+
+- rule: Get details of a complaint
+  steps:
+  - intent: complaint_details_list
+  - action: action_complaint_details_list
+
+- rule: Get list of all suggestion
+  steps:
+  - intent: suggestion_list
+  - action: action_suggestion_list
+

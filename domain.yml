@@ -17,6 +17,7 @@ intents:
   - track_raised
   - admin_details
   - suggestion_raised
+  - user_list
 #****************************************RAISE_COMPLAINT****************************************************
   - raise_complaint
 #****************************************RAISE_COMPLAINT****************************************************
@@ -75,6 +76,7 @@ actions:
 - action_submit_track
 - action_submit_suggestion
 - action_admin_details
+- action_user_list
 
 
 session_config:

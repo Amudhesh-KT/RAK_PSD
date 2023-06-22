@@ -4997,3 +4997,420 @@ nlu:
     - Admin
     - Admin
     - admin
+
+- intent: user_list
+  examples: |
+    - userlist
+    - Userlist
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userList
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - userlist
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+    - username list
+
+- intent: complaint_list
+  examples: |
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints List
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - complaints list
+    - Complaints list
+    - Complaints list
+    - Complaints list
+    - Complaints list
+    - Complaints list
+    - Complaints list
+    - Complaints list
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+    - Complaints List
+
+- intent: complaint_details_list
+  examples: |
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+    - complaint details
+
+- intent: suggestion_list
+  examples: |    
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion List
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion list
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
+    - Suggestion List
