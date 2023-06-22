@@ -446,7 +446,7 @@ class ActionComplaintsDetails(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         metadata = tracker.latest_message.get("metadata")
-        form = metadata.get("track_form",{})
+        form = metadata.get("complaint_id_form",{})
         print(form)
         id = form.get("complaint_id")
         # id = 'RAK1012'
