@@ -496,3 +496,49 @@ class ActionSuggestionDetails(Action):
 
         return []
     
+class ActionPendingComplaints(Action):
+
+    def name(self) -> Text:
+        return "action_pending_complaint"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        pending_complaint = complaint_collection.find()
+        pending_complaint_list= []
+        for doc in pending_complaint:
+            pending_complaint_list.append(doc['complaint_id'])
+
+        resp =  {
+                    "pending_complaint_list" : pending_complaint_list
+                }      
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+        
+
+        return []
+    
+
+class ActionCompletedComplaints(Action):
+
+    def name(self) -> Text:
+        return "action_completed_complaint"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        completed_complaint = complaint_collection.find()
+        completed_complaint_list= []
+        for doc in completed_complaint:
+            completed_complaint_list.append(doc['complaint_id'])
+
+        resp =  {
+                    "completed_complaint_list" : completed_complaint_list
+                }     
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+        
+
+        return []

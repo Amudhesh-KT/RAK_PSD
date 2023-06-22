@@ -83,3 +83,13 @@ rules:
   - intent: suggestion_list
   - action: action_suggestion_details_list
 
+- rule: Get list of all suggestion
+  steps:
+  - intent: pending_complaint
+  - action: action_pending_complaint
+
+- rule: Get list of all suggestion
+  steps:
+  - intent: completed_complaint
+  - action: action_completed_complaint
+

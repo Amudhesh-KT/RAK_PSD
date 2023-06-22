@@ -21,6 +21,8 @@ intents:
   - complaint_list
   - complaint_details_list
   - suggestion_list
+  - pending_complaint
+  - completed_complaint
 
 #****************************************RAISE_COMPLAINT****************************************************
   - raise_complaint
@@ -84,6 +86,8 @@ actions:
 - action_suggestion_details_list
 - action_complaint_details_list
 - action_complaint_list
+- action_completed_complaint
+- action_pending_complaint
 
 session_config:
   session_expiration_time: 60
