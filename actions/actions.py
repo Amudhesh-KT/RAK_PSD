@@ -468,12 +468,12 @@ class ActionComplaintDetails:
     
 class ActionSuggestionList:
 
-    def name (self) -> Text:
+    def name(self) -> Text:
         return "action_suggestion_list"
-    
+
     def run(self, dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         suggestion = suggestion_collection.find({},{'username':1,'_id':0,'suggestion_details':1})
         suggestion_list = []
         for i in suggestion:
