@@ -424,7 +424,7 @@ class ActionComplaintslist(Action):
             complaint_list.append(doc['complaint_id'])
 
         resp =  {
-                    "userName" : complaint_list
+                    "complaint_list" : complaint_list
                 }
         
         response_json = json.dumps(resp)
