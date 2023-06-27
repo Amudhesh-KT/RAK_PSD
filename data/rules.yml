@@ -93,3 +93,8 @@ rules:
   - intent: completed_complaint
   - action: action_completed_complaint
 
+- rule: Get list of all raised for an username
+  steps:
+  - intent: username_raised_list
+  - action: action_username_raised_list
+

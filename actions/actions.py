@@ -542,3 +542,34 @@ class ActionCompletedComplaints(Action):
         
 
         return []
+    
+class ActionUsernameRaisedList(Action):
+
+    def name(self) -> Text:
+        return "action_username_raised_list"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        metadata = tracker.latest_message.get("metadata")
+        form = metadata.get("username_id_form",{})
+        username = form.get("username")
+        # username = "aravind"
+        print(username)
+        user_complaint = complaint_collection.find({'username':username})
+        # user_complaint = complaint_collection.find({'username':'username'})
+        user_complaint_list= []
+        count = 0
+        for doc in user_complaint:
+            user_complaint_list.append(doc['complaint_id'])
+            count+=1
+        resp =  {
+                    "user_complaint_list" : user_complaint_list,
+                    "user_complaint_count" : count
+                }     
+        response_json = json.dumps(resp)
+        dispatcher.utter_message(text=response_json)
+        print(resp)
+
+        
+        return []
