@@ -3,3 +3,4 @@ Scripts
 Lib
 pyvenv
 .rasa
+actions/__pycache__
